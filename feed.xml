@@ -3,7 +3,7 @@
     <title>Gary Innerarity</title>
     <link href="https://publii.garyinnerarity.com/feed.xml" rel="self" />
     <link href="https://publii.garyinnerarity.com" />
-    <updated>2022-10-13T09:57:09-05:00</updated>
+    <updated>2022-10-13T10:11:33-05:00</updated>
     <author>
         <name>Gary Innerarity</name>
     </author>
@@ -54,8 +54,9 @@
         </author>
         <link href="https://publii.garyinnerarity.com/openvpn-on-raspberry-pi-virtually/"/>
         <id>https://publii.garyinnerarity.com/openvpn-on-raspberry-pi-virtually/</id>
+            <category term="Cloud-Networking"/>
 
-        <updated>2022-10-13T09:57:09-05:00</updated>
+        <updated>2022-10-13T10:10:14-05:00</updated>
             <summary>
                 <![CDATA[
                     OpenVPN. There, that's it. That's all you need to know. No, seriously though, the installation is almost that brief as well. We used PiVPN (Raspberry Pi - VPN) don't worry, it took me a minute to understand the name as well, which is why I&hellip;
@@ -64,128 +65,98 @@
         <content type="html">
             <![CDATA[
                 <p><!-- wp:image {"align":"center","id":385} --></p>
-<figure class="wp-block-image aligncenter"><figure class="wp-image-385"><img loading="lazy" src="https://publii.garyinnerarity.com/media/posts/50/openvpn.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://publii.garyinnerarity.com/media/posts/50/responsive/openvpn-xs.png 300w ,https://publii.garyinnerarity.com/media/posts/50/responsive/openvpn-sm.png 480w ,https://publii.garyinnerarity.com/media/posts/50/responsive/openvpn-md.png 768w ,https://publii.garyinnerarity.com/media/posts/50/responsive/openvpn-lg.png 1024w ,https://publii.garyinnerarity.com/media/posts/50/responsive/openvpn-xl.png 1360w ,https://publii.garyinnerarity.com/media/posts/50/responsive/openvpn-2xl.png 1600w"  alt="" /></figure></figure>
-<p>
-<!-- /wp:image --></p>
+<figure class="wp-block-image aligncenter"><figure class="wp-image-385"><img loading="lazy"  src="https://publii.garyinnerarity.com/media/posts/50/openvpn.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://publii.garyinnerarity.com/media/posts/50/responsive/openvpn-xs.png 300w ,https://publii.garyinnerarity.com/media/posts/50/responsive/openvpn-sm.png 480w ,https://publii.garyinnerarity.com/media/posts/50/responsive/openvpn-md.png 768w ,https://publii.garyinnerarity.com/media/posts/50/responsive/openvpn-lg.png 1024w ,https://publii.garyinnerarity.com/media/posts/50/responsive/openvpn-xl.png 1360w ,https://publii.garyinnerarity.com/media/posts/50/responsive/openvpn-2xl.png 1600w"  alt=""></figure></figure>
+<p><!-- /wp:image --></p>
 <p><!-- wp:paragraph --></p>
-<p>OpenVPN. There, that's it. That's all you need to know. </p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>OpenVPN. There, that's it. That's all you need to know.</p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:separator {"opacity":"css"} --></p>
-<hr class="wp-block-separator has-css-opacity"/>
-<!-- /wp:separator --></p>
+<hr class="wp-block-separator has-css-opacity"><!-- /wp:separator -->
 <p><!-- wp:paragraph --></p>
-<p>No, seriously though, the installation is almost that brief as well. We used PiVPN (Raspberry Pi - VPN) don't worry, it took me a minute to understand the name as well, which is why I broke it down for you. </p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>No, seriously though, the installation is almost that brief as well. We used PiVPN (Raspberry Pi - VPN) don't worry, it took me a minute to understand the name as well, which is why I broke it down for you.</p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:list {"ordered":true} --></p>
 <ol>
-<li><a href="https://www.raspberrypi.org/downloads/raspberry-pi-desktop/">Download Raspberry Pi Desktop (ISO)  </a></li>
+<li><a href="https://www.raspberrypi.org/downloads/raspberry-pi-desktop/">Download Raspberry Pi Desktop (ISO) </a></li>
 </ol>
-<p>
-<!-- /wp:list --></p>
+<p><!-- /wp:list --></p>
 <p><!-- wp:paragraph --></p>
-<p>Look, I know what you're thinking - "Why provide a link?". Because you're going to screw it up. <a href="https://www.google.com/search?safe=strict&amp;rlz=1C1CHBF_enUS847US847&amp;ei=poMRXcyUBI-5tQah0LfwAw&amp;q=openvpn+raspbian+download&amp;oq=openvpn+raspbian+download&amp;gs_l=psy-ab.3..0i22i30l2.3465.4800..4895...0.0..0.204.1294.0j7j1......0....1..gws-wiz.......0i71j0j0i20i263j33i299j33i160.hI7ExZrX0nk">Le Googles'</a> offers the first three searches for the SD card users... we are installing this in a Hyper Visor scenario. </p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>Look, I know what you're thinking - "Why provide a link?". Because you're going to screw it up. <a href="https://www.google.com/search?safe=strict&amp;rlz=1C1CHBF_enUS847US847&amp;ei=poMRXcyUBI-5tQah0LfwAw&amp;q=openvpn+raspbian+download&amp;oq=openvpn+raspbian+download&amp;gs_l=psy-ab.3..0i22i30l2.3465.4800..4895...0.0..0.204.1294.0j7j1......0....1..gws-wiz.......0i71j0j0i20i263j33i299j33i160.hI7ExZrX0nk">Le Googles'</a> offers the first three searches for the SD card users... we are installing this in a Hyper Visor scenario.</p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:separator {"opacity":"css"} --></p>
-<hr class="wp-block-separator has-css-opacity"/>
-<!-- /wp:separator --></p>
+<hr class="wp-block-separator has-css-opacity"><!-- /wp:separator -->
 <p><!-- wp:paragraph --></p>
-<p>2. Next, you'll need to find yourself a host machine with a VM manager on it.  I used Hyper-V offered by Microsoft on their Windows Server 2012 R2 Data-center installation (I know, it's 2019, but that's what I have). </p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>2. Next, you'll need to find yourself a host machine with a VM manager on it. I used Hyper-V offered by Microsoft on their Windows Server 2012 R2 Data-center installation (I know, it's 2019, but that's what I have).</p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:separator {"opacity":"css"} --></p>
-<hr class="wp-block-separator has-css-opacity"/>
-<!-- /wp:separator --></p>
+<hr class="wp-block-separator has-css-opacity"><!-- /wp:separator -->
 <p><!-- wp:paragraph --></p>
-<p>3. Frankly, if I need to explain this part to you, you probably shouldn't be using a hyper-visor just from a security standpoint, so I'm only going to point out the obvious for those who want a quick and dirty installation. </p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>3. Frankly, if I need to explain this part to you, you probably shouldn't be using a hyper-visor just from a security standpoint, so I'm only going to point out the obvious for those who want a quick and dirty installation.</p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:list --></p>
 <ul>
 <li>50GB HDD</li>
-<li>ISO of Raspbian </li>
+<li>ISO of Raspbian</li>
 <li>2vCPU (for quicker installation, but 1vCPU is enough)</li>
 <li>2GB of RAM (Again, you only need 512MB, but speed)</li>
 <li>1st Gen Network Adapter (virtual, obviously)</li>
 </ul>
-<p>
-<!-- /wp:list --></p>
+<p><!-- /wp:list --></p>
 <p><!-- wp:separator {"opacity":"css"} --></p>
-<hr class="wp-block-separator has-css-opacity"/>
-<!-- /wp:separator --></p>
+<hr class="wp-block-separator has-css-opacity"><!-- /wp:separator -->
 <p><!-- wp:paragraph --></p>
 <p>4. Launch your VM</p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:list --></p>
 <ul>
 <li>Boot to ISO (The image you downloaded from Step 1)</li>
 <li>Follow prompts to install Raspbian (INSTALL!!!!)</li>
-<li>After installation, reboot, and then install updates (apt-get upgrade | update) </li>
+<li>After installation, reboot, and then install updates (apt-get upgrade | update)</li>
 </ul>
-<p>
-<!-- /wp:list --></p>
+<p><!-- /wp:list --></p>
 <p><!-- wp:separator {"opacity":"css"} --></p>
-<hr class="wp-block-separator has-css-opacity"/>
-<!-- /wp:separator --></p>
+<hr class="wp-block-separator has-css-opacity"><!-- /wp:separator -->
 <p><!-- wp:paragraph --></p>
-<p>5. Time to get dirty. Open the terminal, and use this launch code: </p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>5. Time to get dirty. Open the terminal, and use this launch code:</p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:code --></p>
 <pre class="wp-block-code"><code>curl -L https://install.pivpn.io | bash</code></pre>
-<p>
-<!-- /wp:code --></p>
+<p><!-- /wp:code --></p>
 <p><!-- wp:paragraph --></p>
-<p>You will then, spam "enter". Seriously, just follow the prompts to finalize the configuration (mostly "enter") </p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>You will then, spam "enter". Seriously, just follow the prompts to finalize the configuration (mostly "enter")</p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>Reboot. </p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>Reboot.</p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>Credit:   <a href="http://www.pivpn.io/">http://www.pivpn.io/</a>  </p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>Credit: <a href="http://www.pivpn.io/">http://www.pivpn.io/</a></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p><a href="https://www.smarthomeblog.net/raspberry-pi-vpn/">Proper Documentation</a></p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:separator {"opacity":"css"} --></p>
-<hr class="wp-block-separator has-css-opacity"/>
-<!-- /wp:separator --></p>
+<hr class="wp-block-separator has-css-opacity"><!-- /wp:separator -->
 <p><!-- wp:paragraph --></p>
 <p>Key commands to operate OpenVPN (Add Profiles)</p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:code --></p>
 <pre class="wp-block-code"><code>pivpn add</code></pre>
-<p>
-<!-- /wp:code --></p>
+<p><!-- /wp:code --></p>
 <p><!-- wp:paragraph --></p>
 <p>Follow the prompt to create the user profile &amp; password</p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>From here, you will then email your profile from the vm (or use SCP).</p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>Import your profile, use your set password and "connect"! </p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>Import your profile, use your set password and "connect"!</p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:image {"align":"left","id":397} --></p>
-<figure class="wp-block-image alignleft"><figure class="wp-image-397"><img loading="lazy" src="https://publii.garyinnerarity.com/media/posts/50/annotation-2019-06-24-212233.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://publii.garyinnerarity.com/media/posts/50/responsive/annotation-2019-06-24-212233-xs.png 300w ,https://publii.garyinnerarity.com/media/posts/50/responsive/annotation-2019-06-24-212233-sm.png 480w ,https://publii.garyinnerarity.com/media/posts/50/responsive/annotation-2019-06-24-212233-md.png 768w ,https://publii.garyinnerarity.com/media/posts/50/responsive/annotation-2019-06-24-212233-lg.png 1024w ,https://publii.garyinnerarity.com/media/posts/50/responsive/annotation-2019-06-24-212233-xl.png 1360w ,https://publii.garyinnerarity.com/media/posts/50/responsive/annotation-2019-06-24-212233-2xl.png 1600w"  alt="" /></figure></figure>
-<p>
-<!-- /wp:image --></p>
+<figure class="wp-block-image alignleft"><figure class="wp-image-397"><img loading="lazy"  src="https://publii.garyinnerarity.com/media/posts/50/annotation-2019-06-24-212233.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://publii.garyinnerarity.com/media/posts/50/responsive/annotation-2019-06-24-212233-xs.png 300w ,https://publii.garyinnerarity.com/media/posts/50/responsive/annotation-2019-06-24-212233-sm.png 480w ,https://publii.garyinnerarity.com/media/posts/50/responsive/annotation-2019-06-24-212233-md.png 768w ,https://publii.garyinnerarity.com/media/posts/50/responsive/annotation-2019-06-24-212233-lg.png 1024w ,https://publii.garyinnerarity.com/media/posts/50/responsive/annotation-2019-06-24-212233-xl.png 1360w ,https://publii.garyinnerarity.com/media/posts/50/responsive/annotation-2019-06-24-212233-2xl.png 1600w"  alt=""></figure></figure>
+<p><!-- /wp:image --></p>
 <p><!-- wp:paragraph --></p>
-<p> This image = Success </p>
-<p>
-<!-- /wp:paragraph --></p>
-
+<p>This image = Success</p>
+<p><!-- /wp:paragraph --></p>
             ]]>
         </content>
     </entry>
@@ -196,165 +167,130 @@
         </author>
         <link href="https://publii.garyinnerarity.com/energy-consumption-or-infrastructure/"/>
         <id>https://publii.garyinnerarity.com/energy-consumption-or-infrastructure/</id>
+            <category term="On-Prem Servers"/>
 
-        <updated>2022-10-13T09:57:09-05:00</updated>
+        <updated>2022-10-13T10:10:40-05:00</updated>
             <summary>
                 <![CDATA[
-                    TLDR&nbsp;(efficiently expressed - rhetorically); Reducing infrastructure hardware with virtualization technology and picking energy efficient hardware that ultimately reduced our energy consumption over the last six years. Certainly beating the annual increase on commercial energy costs and giving us insights into the power of software and&hellip;
+                    TLDR (efficiently expressed - rhetorically); Reducing infrastructure hardware with virtualization technology and picking energy efficient hardware that ultimately reduced our energy consumption over the last six years. Certainly beating the annual increase on commercial energy costs and giving us insights into the power of software and&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <p><!-- wp:paragraph --></p>
-<p><strong>TLDR</strong>&nbsp;(<em><u>efficiently expressed - rhetorically</u></em>); Reducing infrastructure hardware with virtualization technology and picking energy efficient hardware that ultimately reduced our energy consumption over the last six years. Certainly beating the annual increase on commercial energy costs and giving us insights into the power of software and hardware technology innovations.&nbsp;</p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><strong>TLDR</strong> (<em><u>efficiently expressed - rhetorically</u></em>); Reducing infrastructure hardware with virtualization technology and picking energy efficient hardware that ultimately reduced our energy consumption over the last six years. Certainly beating the annual increase on commercial energy costs and giving us insights into the power of software and hardware technology innovations. </p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>--</p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p><strong>This project is:&nbsp;</strong>My measurements are a 'broad stroke' of what our potential savings were. We want to see if we A) saved money on electricity to lower the environmental impact and B) see if my operational planning is lowering our foot print, and requiring less of a demand on internal resources ($$$$) and operating more efficiently (this is what I really care about).</p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><strong>This project is: </strong>My measurements are a 'broad stroke' of what our potential savings were. We want to see if we A) saved money on electricity to lower the environmental impact and B) see if my operational planning is lowering our foot print, and requiring less of a demand on internal resources ($$$$) and operating more efficiently (this is what I really care about).</p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:image --></p>
-<figure class="wp-block-image"><img loading="lazy" src="https://publii.garyinnerarity.com/media/posts/49/0" alt="Infrastructure Energy Consumption Analysis" /></figure>
-<p>
-<!-- /wp:image --></p>
+<figure class="wp-block-image"><img loading="lazy" src="https://publii.garyinnerarity.com/media/posts/49/0" alt="Infrastructure Energy Consumption Analysis"></figure>
+<p><!-- /wp:image --></p>
 <p><!-- wp:paragraph --></p>
 <p>Well... I think the graph speaks for itself. We saved a lot of money on electricity. How did we do it? Keep reading.</p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>--</p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p><strong>What this analysis could have been:&nbsp;</strong></p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><strong>What this analysis could have been: </strong></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>It could have been a complete analysis that broke down each system by CPU (E3, E5, AMD, etc..), RAM (8, 16, 32, 64, 128), Storage (RAID configs based on SSD's, HDD's), and exact amount of (network) data pushed by the hour. Gratefully, I get paid more than $0.082 per hour, unfortunately, that means that the time to perform a fully detailed analysis may dramatically reduce the cost savings.&nbsp;Then again, it could be tucked away as a hidden variable..., jk.</p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>It could have been a complete analysis that broke down each system by CPU (E3, E5, AMD, etc..), RAM (8, 16, 32, 64, 128), Storage (RAID configs based on SSD's, HDD's), and exact amount of (network) data pushed by the hour. Gratefully, I get paid more than $0.082 per hour, unfortunately, that means that the time to perform a fully detailed analysis may dramatically reduce the cost savings. Then again, it could be tucked away as a hidden variable..., jk.</p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>Remember, efficiency.&nbsp;&nbsp;<em><u>"When products use more power to perform the same amount of work, they are by definition less efficient."</u></em></p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>Remember, efficiency.  <em><u>"When products use more power to perform the same amount of work, they are by definition less efficient."</u></em></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>--</p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p><strong>Why it wasn't that:&nbsp;</strong></p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><strong>Why it wasn't that: </strong></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>Cost benefit analysis i.e, not worth the time for a similar outcome. This analysis is being done in hindsight with 20/20 vision. If I wanted to make a decision about future infrastructure changes (collocation, hybrid public cloud, on-prem datacenter expansions) with vendor purchase agreements over $100,000 for a single refresh, then the cost/benefit may be exponential enough to measure.&nbsp;We don't spend that type of money on infrastructure.</p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>Cost benefit analysis i.e, not worth the time for a similar outcome. This analysis is being done in hindsight with 20/20 vision. If I wanted to make a decision about future infrastructure changes (collocation, hybrid public cloud, on-prem datacenter expansions) with vendor purchase agreements over $100,000 for a single refresh, then the cost/benefit may be exponential enough to measure. We don't spend that type of money on infrastructure.</p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>--</p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p><strong>What it is:&nbsp;</strong></p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><strong>What it is: </strong></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>I mean, knowing that the new hardware consumes less wattage than the prior hardware and comes with software that supports low idle usage during low load times; means that the power consumption will be lower - in theory. But remember, all you know are the stats given to you from the vendor. That doesn't include the environment variables (seasonal electrical cost changes, systems usage changes, and random implementations or deprecation's, nor system count changes).&nbsp;<em><u>That sentence alone is exhaustive and makes me want to switch to cloud computing</u></em>! For instance, our year over year costs per device is on an upward trend, but our overall costs for our environment is on a downward trend. How is that?&nbsp;</p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>I mean, knowing that the new hardware consumes less wattage than the prior hardware and comes with software that supports low idle usage during low load times; means that the power consumption will be lower - in theory. But remember, all you know are the stats given to you from the vendor. That doesn't include the environment variables (seasonal electrical cost changes, systems usage changes, and random implementations or deprecation's, nor system count changes). <em><u>That sentence alone is exhaustive and makes me want to switch to cloud computing</u></em>! For instance, our year over year costs per device is on an upward trend, but our overall costs for our environment is on a downward trend. How is that? </p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:image --></p>
-<figure class="wp-block-image"><img loading="lazy" src="https://publii.garyinnerarity.com/media/posts/49/0" alt="year over year electricity cost per device" /></figure>
-<p>
-<!-- /wp:image --></p>
+<figure class="wp-block-image"><img loading="lazy" src="https://publii.garyinnerarity.com/media/posts/49/0" alt="year over year electricity cost per device"></figure>
+<p><!-- /wp:image --></p>
 <p><!-- wp:paragraph --></p>
-<p>Originally, I wanted to see how much of a cost savings or increase we would see from my infrastructure decisions. It quickly became apparent that most of my savings was not because I picked super efficient and 'green' hardware -&nbsp;<em><u>but I did.</u></em>&nbsp;The primary reason for my cost savings was actually a software technology - virtualization.&nbsp;<em><u>Yes. It has been around for a LONG TIME.</u></em></p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>Originally, I wanted to see how much of a cost savings or increase we would see from my infrastructure decisions. It quickly became apparent that most of my savings was not because I picked super efficient and 'green' hardware - <em><u>but I did.</u></em> The primary reason for my cost savings was actually a software technology - virtualization. <em><u>Yes. It has been around for a LONG TIME.</u></em></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>The primary savings was accomplished during the partial and full virtualization phase (2016-2017). Reducing the onsite datacenter footprint from 24 servers down to 3 primary servers. Unfortunately, some of the technologies deployed required additional power consumption, increased demand on average server usage and increased PoE demand on all switches as more devices become Powered over Ethernet.&nbsp;</p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>The primary savings was accomplished during the partial and full virtualization phase (2016-2017). Reducing the onsite datacenter footprint from 24 servers down to 3 primary servers. Unfortunately, some of the technologies deployed required additional power consumption, increased demand on average server usage and increased PoE demand on all switches as more devices become Powered over Ethernet. </p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p><strong><em><u>Eitherway, we dramatically reduced our energy consumption! Yay, us. Sorry, Entergy.</u></em></strong></p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p><strong>What I plan to do with this:&nbsp;</strong></p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><strong>What I plan to do with this: </strong></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>Increase system efficiency, cost effectively - I thought I made that clear.</p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>The primary bottleneck that is limiting our system throughput are the disks I/O speeds. With future analysis, we will be able to determine if SSD's can provide us with an operational cost savings through the direct cost of electricity, infrastructure purchasing costs by consolidating one of the Hyper visors from three down to two and comparing those cost savings to varying models. I'm considering and testing costs in both a hybrid-cloud infrastructure (which adds systemic processes (lowers efficiency)) and complexes the design (lowers troubleshooting efficiency without proper training) and increases demand for professional development. All variables must be considered before making a decision on our next infrastructure initiative.&nbsp;</p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>The primary bottleneck that is limiting our system throughput are the disks I/O speeds. With future analysis, we will be able to determine if SSD's can provide us with an operational cost savings through the direct cost of electricity, infrastructure purchasing costs by consolidating one of the Hyper visors from three down to two and comparing those cost savings to varying models. I'm considering and testing costs in both a hybrid-cloud infrastructure (which adds systemic processes (lowers efficiency)) and complexes the design (lowers troubleshooting efficiency without proper training) and increases demand for professional development. All variables must be considered before making a decision on our next infrastructure initiative. </p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p><strong>How I plan to measure:&nbsp;</strong></p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><strong>How I plan to measure: </strong></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:list --></p>
 <ul>
-<li>Electrical costs can continue to be measured on an annual basis by kWh per device based on average load/usage and multiplied by the total number of 'like' devices in the network.&nbsp;</li>
-<li>Processes can be measured by taking the collective salary average and dividing it by the support hours required to maintain, monitor, and support a hybrid-cloud.&nbsp;</li>
-<li>In the same light, troubleshooting time can be averaged by the salary over ticket completion times for systems / infrastructure tasks.&nbsp;</li>
-<li>And finally, PD costs are explicit when utilizing subscription plans, boot-camps, and training materials. The hardest aspect to measure will be personal, off-the-clock training time dedicated to increasing our staff knowledge on cloud computing maintenance and troubleshooting.&nbsp;</li>
+<li>Electrical costs can continue to be measured on an annual basis by kWh per device based on average load/usage and multiplied by the total number of 'like' devices in the network. </li>
+<li>Processes can be measured by taking the collective salary average and dividing it by the support hours required to maintain, monitor, and support a hybrid-cloud. </li>
+<li>In the same light, troubleshooting time can be averaged by the salary over ticket completion times for systems / infrastructure tasks. </li>
+<li>And finally, PD costs are explicit when utilizing subscription plans, boot-camps, and training materials. The hardest aspect to measure will be personal, off-the-clock training time dedicated to increasing our staff knowledge on cloud computing maintenance and troubleshooting. </li>
 </ul>
-<p>
-<!-- /wp:list --></p>
+<p><!-- /wp:list --></p>
 <p><!-- wp:paragraph --></p>
 <p><strong>Resources:</strong></p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>Inspiration:&nbsp;<a href="https://codeascraft.com/2020/04/23/cloud-jewels-estimating-kwh-in-the-cloud/" target="_blank" rel="noreferrer noopener">https://codeascraft.com/2020/04/23/cloud-jewels-estimating-kwh-in-the-cloud/</a></p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>Inspiration: <a href="https://codeascraft.com/2020/04/23/cloud-jewels-estimating-kwh-in-the-cloud/" target="_blank" rel="noreferrer noopener">https://codeascraft.com/2020/04/23/cloud-jewels-estimating-kwh-in-the-cloud/</a></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>Some research:&nbsp;<a href="http://www.webtorials.com/main/resource/papers/cisco/paper112/EthernetPowerStudy.pdf" target="_blank" rel="noreferrer noopener">http://www.webtorials.com/main/resource/papers/cisco/paper112/EthernetPowerStudy.pdf</a></p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>Some research: <a href="http://www.webtorials.com/main/resource/papers/cisco/paper112/EthernetPowerStudy.pdf" target="_blank" rel="noreferrer noopener">http://www.webtorials.com/main/resource/papers/cisco/paper112/EthernetPowerStudy.pdf</a></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p><strong>Amazing vendors:</strong></p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p><a href="https://www.dell.com/" target="_blank" rel="noreferrer noopener">https://www.dell.com/</a>&nbsp;(PowerEdge is amazing!)</p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><a href="https://www.dell.com/" target="_blank" rel="noreferrer noopener">https://www.dell.com/</a> (PowerEdge is amazing!)</p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p><a href="https://meraki.cisco.com/" target="_blank" rel="noreferrer noopener">https://meraki.cisco.com/</a>&nbsp;(Built in power consumption metrics)</p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><a href="https://meraki.cisco.com/" target="_blank" rel="noreferrer noopener">https://meraki.cisco.com/</a> (Built in power consumption metrics)</p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p><a rel="noreferrer noopener" href="https://www.cisco.com/" target="_blank">https://www.cisco.com/</a> (manual power consumption stats)</p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>#show power inline<restore-line-break><restore-line-break>module available used remaining<restore-line-break><restore-line-break>(watts) (watts)<restore-line-break><restore-line-break>1 370.0  39 331<restore-line-break></code></pre>
-<p>
-<!-- /wp:code --></p>
+<pre class="wp-block-code"><code>#show power inlinemodule available used remaining(watts) (watts)1 370.0  39 331</code></pre>
+<p><!-- /wp:code --></p>
 <p><!-- wp:preformatted --></p>
-<pre class="wp-block-preformatted"></pre>
-<p>
-<!-- /wp:preformatted --></p>
+<pre class="wp-block-preformatted"> </pre>
+<p><!-- /wp:preformatted --></p>
 <p><!-- wp:paragraph --></p>
 <p>Disclosure:</p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:list --></p>
 <ul>
 <li>Not affiliated with anyone / anything in this post directly.</li>
 <li>Excuse grammatical issues, I'm not a writer.</li>
 <li>All analysis was inspired by others with a personal directive to save the earth and increase efficiency.</li>
 </ul>
-<p>
-<!-- /wp:list --></p>
-
+<p><!-- /wp:list --></p>
             ]]>
         </content>
     </entry>
@@ -365,8 +301,9 @@
         </author>
         <link href="https://publii.garyinnerarity.com/cisco-the-future-of-internet/"/>
         <id>https://publii.garyinnerarity.com/cisco-the-future-of-internet/</id>
+            <category term="Switching"/>
 
-        <updated>2022-10-13T09:57:09-05:00</updated>
+        <updated>2022-10-13T10:11:33-05:00</updated>
             <summary>
                 <![CDATA[
                     On December 11th, Cisco announced the future in five categories. 1. Silicon - Referenced as the "engine to a car", Silicon One is Cisco's programmable silicon architecture - Q100. This transistor can handle large buffers, advanced programability and greater bandwidth! Nerd Knob #1: 10 Tbps&hellip;
@@ -375,9 +312,8 @@
         <content type="html">
             <![CDATA[
                 <p><!-- wp:paragraph --></p>
-<p>On December 11th, Cisco announced the future in five categories. </p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>On December 11th, Cisco announced the future in five categories.</p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:list {"ordered":true} --></p>
 <ol>
 <li>Silicon</li>
@@ -386,100 +322,75 @@
 <li>Systems</li>
 <li>Architectures</li>
 </ol>
-<p>
-<!-- /wp:list --></p>
+<p><!-- /wp:list --></p>
 <p><!-- wp:paragraph --></p>
-<p>1. Silicon - Referenced as the "engine to a car", Silicon One is Cisco's programmable silicon architecture - Q100. This transistor can handle large buffers, advanced programability and greater bandwidth! </p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>1. Silicon - Referenced as the "engine to a car", Silicon One is Cisco's programmable silicon architecture - Q100. This transistor can handle large buffers, advanced programability and greater bandwidth!</p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>Nerd Knob #1: 10 Tbps carrier-class capability</p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>Finance: Drastically reduces the OpEx industry rate which sits at a 1:5 ratio </p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>Finance: Drastically reduces the OpEx industry rate which sits at a 1:5 ratio</p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>Read more here:  <a href="https://blogs.cisco.com/sp/one-silicon-one-experience-multiple-roles">https://blogs.cisco.com/sp/one-silicon-one-experience-multiple-roles</a>  </p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>Read more here: <a href="https://blogs.cisco.com/sp/one-silicon-one-experience-multiple-roles">https://blogs.cisco.com/sp/one-silicon-one-experience-multiple-roles</a></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>2. Optics - Slower interface speeds could easily cost a solution 10%. With new silicon photonics reaching 400G, the cost per bit can be driven down.</p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>With the hardware becoming more diverse and software driven, we are now going to see an increase in cost on the speed. </p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>With the hardware becoming more diverse and software driven, we are now going to see an increase in cost on the speed.</p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>Can you imagine? 400GbE connections. That's an insane amount of data movement. </p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>Can you imagine? 400GbE connections. That's an insane amount of data movement.</p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>Read more here:  <a href="https://blogs.cisco.com/sp/optics-fundamental-to-build-the-internet-for-the-future">https://blogs.cisco.com/sp/optics-fundamental-to-build-the-internet-for-the-future</a>  </p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>Read more here: <a href="https://blogs.cisco.com/sp/optics-fundamental-to-build-the-internet-for-the-future">https://blogs.cisco.com/sp/optics-fundamental-to-build-the-internet-for-the-future</a></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>3. Software -  As Cisco references Silicon as the car, they reference Software as the steering wheel. Their Network Operating System (NOS) becomes an even more critical component in the future of the internet. With Cisco's IOS XR7, come prioritization on operations. Their goal was to simplify and improve automation tasks with the overarching goal of "zero-touch". With better efficiencies, comes more complexities. XR7 NOS allows teams to utilize the computer for insights and analytics. </p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>3. Software - As Cisco references Silicon as the car, they reference Software as the steering wheel. Their Network Operating System (NOS) becomes an even more critical component in the future of the internet. With Cisco's IOS XR7, come prioritization on operations. Their goal was to simplify and improve automation tasks with the overarching goal of "zero-touch". With better efficiencies, comes more complexities. XR7 NOS allows teams to utilize the computer for insights and analytics.</p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>Read more here:  <a href="https://www.cisco.com/c/en/us/products/ios-nx-os-software/ios-xr-software/index.html">https://www.cisco.com/c/en/us/products/ios-nx-os-software/ios-xr-software/index.html</a>  </p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>Read more here: <a href="https://www.cisco.com/c/en/us/products/ios-nx-os-software/ios-xr-software/index.html">https://www.cisco.com/c/en/us/products/ios-nx-os-software/ios-xr-software/index.html</a></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>4. Systems - Continuing the reference - the car. With Cisco 8000 series routers being deployed, we can now bundle the hardware and software for limitless opportunities. Okay, maybe not limitless for long, but definitely a game changer for the immediate future. </p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>4. Systems - Continuing the reference - the car. With Cisco 8000 series routers being deployed, we can now bundle the hardware and software for limitless opportunities. Okay, maybe not limitless for long, but definitely a game changer for the immediate future.</p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>Nerd Knob #2:</p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>1 RU Router can support 10.8Tb/s bandwidth... </p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>1 RU Router can support 10.8Tb/s bandwidth...</p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>3 modular form-factor platforms delivering support from 115Tb/s &gt; 260Tb/s</p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>Full Fabric redundancy</p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>Top of the line security - Hardware based "Trustworthiness"  for tamper proof control and visibility controlled by Cisco Crosswork Cloud </p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>Top of the line security - Hardware based "Trustworthiness" for tamper proof control and visibility controlled by Cisco Crosswork Cloud</p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>Finance: </p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>Finance:</p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>Reduced power consumption per Gb (4W) which is 1/4th the consumption</p>
-<p>
-<!-- /wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>Read more here:  <a href="https://www.cisco.com/c/en/us/products/ios-nx-os-software/ios-xr-software/index.html">https://www.cisco.com/c/en/us/products/ios-nx-os-software/ios-xr-software/index.html</a>  </p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>Read more here: <a href="https://www.cisco.com/c/en/us/products/ios-nx-os-software/ios-xr-software/index.html">https://www.cisco.com/c/en/us/products/ios-nx-os-software/ios-xr-software/index.html</a></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>5. Architectures - Everything listed above has been re-imagined with performance, trust and OpEx in mind. By keeping all of this on track, Cisco is reinventing how the internet operates with people and business in mind. </p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>5. Architectures - Everything listed above has been re-imagined with performance, trust and OpEx in mind. By keeping all of this on track, Cisco is reinventing how the internet operates with people and business in mind.</p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>Read more here:  <a href="https://blogs.cisco.com/news/future-of-the-internet-its-here">https://blogs.cisco.com/news/future-of-the-internet-its-here</a>  </p>
-<p>
-<!-- /wp:paragraph --></p>
+<p>Read more here: <a href="https://blogs.cisco.com/news/future-of-the-internet-its-here">https://blogs.cisco.com/news/future-of-the-internet-its-here</a></p>
+<p><!-- /wp:paragraph --></p>
 <p><!-- wp:separator --></p>
-<hr class="wp-block-separator" />
-<!-- /wp:separator --></p>
+<hr class="wp-block-separator"><!-- /wp:separator -->
 <p><!-- wp:paragraph --></p>
-<p>*This post is not endorsed by Cisco, nor is it a direct reflection of their beliefs and opinions. </p>
-<p>
-<!-- /wp:paragraph --></p>
-
+<p>*This post is not endorsed by Cisco, nor is it a direct reflection of their beliefs and opinions.</p>
+<p><!-- /wp:paragraph --></p>
             ]]>
         </content>
     </entry>
