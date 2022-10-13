@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Gary Innerarity</title>
+    <link href="https://publii.garyinnerarity.com/feed.xml" rel="self" />
+    <link href="https://publii.garyinnerarity.com" />
+    <updated>2022-10-13T09:02:18-05:00</updated>
+    <author>
+        <name>Gary Innerarity</name>
+    </author>
+    <id>https://publii.garyinnerarity.com</id>
+
+    <entry>
+        <title>Testing Post</title>
+        <author>
+            <name>Gary Innerarity</name>
+        </author>
+        <link href="https://publii.garyinnerarity.com/testing-post/"/>
+        <id>https://publii.garyinnerarity.com/testing-post/</id>
+
+        <updated>2022-10-13T09:02:18-05:00</updated>
+            <summary>
+                <![CDATA[
+                    New Post Another Great post for the site.&nbsp; &gt; code snippet #this is a code snippet
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+    <h2 id="new-post">
+      New Post
+    </h2>
+
+  <p>
+    Another Great post for the site.&nbsp;
+  </p>
+<pre class="line-numbers  language-html"><code>&gt; code snippet #this is a code snippet </code></pre>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
+</feed>

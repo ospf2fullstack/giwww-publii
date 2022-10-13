@@ -1,0 +1,27 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Gary Innerarity",
+    "description": "",
+    "home_page_url": "https://publii.garyinnerarity.com",
+    "feed_url": "https://publii.garyinnerarity.com/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Gary Innerarity"
+    },
+    "items": [
+        {
+            "id": "https://publii.garyinnerarity.com/testing-post/",
+            "url": "https://publii.garyinnerarity.com/testing-post/",
+            "title": "Testing Post",
+            "summary": "New Post Another Great post for the site.&nbsp; &gt; code snippet #this is a code snippet",
+            "content_html": "\n    <h2 id=\"new-post\">\n      New Post\n    </h2>\n\n  <p>\n    Another Great post for the site.&nbsp;\n  </p>\n<pre class=\"line-numbers  language-html\"><code>&gt; code snippet #this is a code snippet </code></pre>\n\n  <p>\n    \n  </p>",
+            "author": {
+                "name": "Gary Innerarity"
+            },
+            "tags": [
+            ],
+            "date_published": "2022-10-13T09:01:47-05:00",
+            "date_modified": "2022-10-13T09:02:18-05:00"
+        }
+    ]
+}
