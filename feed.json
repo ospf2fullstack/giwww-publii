@@ -5,6 +5,7 @@
     "home_page_url": "https://publii.garyinnerarity.com",
     "feed_url": "https://publii.garyinnerarity.com/feed.json",
     "user_comment": "",
+    "icon": "https://publii.garyinnerarity.com/media/website/Site-Logo-2.png",
     "author": {
         "name": "Gary Innerarity"
     },
@@ -12,16 +13,16 @@
         {
             "id": "https://publii.garyinnerarity.com/testing-post/",
             "url": "https://publii.garyinnerarity.com/testing-post/",
-            "title": "Testing Post",
-            "summary": "New Post Another Great post for the site.&nbsp; &gt; code snippet #this is a code snippet",
-            "content_html": "\n    <h2 id=\"new-post\">\n      New Post\n    </h2>\n\n  <p>\n    Another Great post for the site.&nbsp;\n  </p>\n<pre class=\"line-numbers  language-html\"><code>&gt; code snippet #this is a code snippet </code></pre>\n\n  <p>\n    \n  </p>",
+            "title": "Gary Innerarity",
+            "summary": "Solutions Architect Amplified IT I, II, Sec | CCNA, CCENT, CMNO | MTA | GCP Welcome to my site. It’s a work in progress. I’m slowly releasing my private documentation library for public use on complex and beginner topics to help those where documentation fell&hellip;",
+            "content_html": "\n    <h2 id=\"solutions-architect\">\n      Solutions Architect\n    </h2>\n\n  <p>\n    Amplified IT I, II, Sec | CCNA, CCENT, CMNO | MTA | GCP\n<br>\n<br>Welcome to my site. It’s a work in progress. I’m slowly releasing my private documentation library for public use on complex and beginner topics to help those where documentation fell short.\n<br>\n<br>Topics will include Cloud Architecting, DevOps, NetOps, and Systems administration. I may even post a few times about management and navigating challenges as a Director of Technology.\n<br>\n<br>Follow along, G.\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://publii.garyinnerarity.com/media/posts/1/homepage.jpg\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://publii.garyinnerarity.com/media/posts/1/responsive/homepage-xs.jpg 300w ,https://publii.garyinnerarity.com/media/posts/1/responsive/homepage-sm.jpg 480w ,https://publii.garyinnerarity.com/media/posts/1/responsive/homepage-md.jpg 768w ,https://publii.garyinnerarity.com/media/posts/1/responsive/homepage-lg.jpg 1024w ,https://publii.garyinnerarity.com/media/posts/1/responsive/homepage-xl.jpg 1360w ,https://publii.garyinnerarity.com/media/posts/1/responsive/homepage-2xl.jpg 1600w\"  height=\"426\" width=\"749\" alt=\"Gary Innerarity Solutions Architect\" />\n      <figcaption>Gary Innerarity Solutions Architect</figcaption>\n    </figure>",
             "author": {
                 "name": "Gary Innerarity"
             },
             "tags": [
             ],
             "date_published": "2022-10-13T09:01:47-05:00",
-            "date_modified": "2022-10-13T09:02:18-05:00"
+            "date_modified": "2022-10-13T09:55:34-05:00"
         }
     ]
 }

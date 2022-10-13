@@ -3,41 +3,47 @@
     <title>Gary Innerarity</title>
     <link href="https://publii.garyinnerarity.com/feed.xml" rel="self" />
     <link href="https://publii.garyinnerarity.com" />
-    <updated>2022-10-13T09:02:18-05:00</updated>
+    <updated>2022-10-13T09:55:34-05:00</updated>
     <author>
         <name>Gary Innerarity</name>
     </author>
     <id>https://publii.garyinnerarity.com</id>
 
     <entry>
-        <title>Testing Post</title>
+        <title>Gary Innerarity</title>
         <author>
             <name>Gary Innerarity</name>
         </author>
         <link href="https://publii.garyinnerarity.com/testing-post/"/>
         <id>https://publii.garyinnerarity.com/testing-post/</id>
 
-        <updated>2022-10-13T09:02:18-05:00</updated>
+        <updated>2022-10-13T09:55:34-05:00</updated>
             <summary>
                 <![CDATA[
-                    New Post Another Great post for the site.&nbsp; &gt; code snippet #this is a code snippet
+                    Solutions Architect Amplified IT I, II, Sec | CCNA, CCENT, CMNO | MTA | GCP Welcome to my site. It’s a work in progress. I’m slowly releasing my private documentation library for public use on complex and beginner topics to help those where documentation fell&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 
-    <h2 id="new-post">
-      New Post
+    <h2 id="solutions-architect">
+      Solutions Architect
     </h2>
 
   <p>
-    Another Great post for the site.&nbsp;
+    Amplified IT I, II, Sec | CCNA, CCENT, CMNO | MTA | GCP
+<br>
+<br>Welcome to my site. It’s a work in progress. I’m slowly releasing my private documentation library for public use on complex and beginner topics to help those where documentation fell short.
+<br>
+<br>Topics will include Cloud Architecting, DevOps, NetOps, and Systems administration. I may even post a few times about management and navigating challenges as a Director of Technology.
+<br>
+<br>Follow along, G.
   </p>
-<pre class="line-numbers  language-html"><code>&gt; code snippet #this is a code snippet </code></pre>
 
-  <p>
-    
-  </p>
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://publii.garyinnerarity.com/media/posts/1/homepage.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://publii.garyinnerarity.com/media/posts/1/responsive/homepage-xs.jpg 300w ,https://publii.garyinnerarity.com/media/posts/1/responsive/homepage-sm.jpg 480w ,https://publii.garyinnerarity.com/media/posts/1/responsive/homepage-md.jpg 768w ,https://publii.garyinnerarity.com/media/posts/1/responsive/homepage-lg.jpg 1024w ,https://publii.garyinnerarity.com/media/posts/1/responsive/homepage-xl.jpg 1360w ,https://publii.garyinnerarity.com/media/posts/1/responsive/homepage-2xl.jpg 1600w"  height="426" width="749" alt="Gary Innerarity Solutions Architect" />
+      <figcaption>Gary Innerarity Solutions Architect</figcaption>
+    </figure>
             ]]>
         </content>
     </entry>
