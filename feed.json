@@ -11,6 +11,85 @@
     },
     "items": [
         {
+            "id": "https://publii.garyinnerarity.com/i-oofed-5102019/index.html",
+            "url": "https://publii.garyinnerarity.com/i-oofed-5102019/index.html",
+            "title": "I oofed... - 5.10.2019",
+            "summary": "Today, I started the day off with an oof... Picture this, Friday morning, I'm in the office early (7am) to start work on some configs before the campus started filling up with Admin, Faculty and students. I grab my coffee, sat down at your desk&hellip;",
+            "content_html": "<p><!-- wp:image {\"id\":166,\"width\":507,\"height\":284} --></p>\n<figure class=\"wp-block-image is-resized\"><figure class=\"wp-image-166\"><img loading=\"lazy\"  src=\"https://publii.garyinnerarity.com/media/posts/23/channel-group.jpg\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://publii.garyinnerarity.com/media/posts/23/responsive/channel-group-xs.jpg 300w ,https://publii.garyinnerarity.com/media/posts/23/responsive/channel-group-sm.jpg 480w ,https://publii.garyinnerarity.com/media/posts/23/responsive/channel-group-md.jpg 768w ,https://publii.garyinnerarity.com/media/posts/23/responsive/channel-group-lg.jpg 1024w ,https://publii.garyinnerarity.com/media/posts/23/responsive/channel-group-xl.jpg 1360w ,https://publii.garyinnerarity.com/media/posts/23/responsive/channel-group-2xl.jpg 1600w\"  alt=\"\" width=\"507\" height=\"284\"></figure></figure>\n<p><!-- /wp:image --></p>\n<p><!-- wp:paragraph --></p>\n<p>Today, I started the day off with an oof...</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<p>Picture this, Friday morning, I'm in the office early (7am) to start work on some configs before the campus started filling up with Admin, Faculty and students. I grab my coffee, sat down at your desk and logged my PC.</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<p>I was feeling confident, started studying my CCNP, felt like I knew my environment like it was the back of my hand, so I launched SuperPutty, configured my sessions (10.2.2.75) over SSHv2. I proceed to show my current interface status:</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:code --></p>\n<pre class=\"wp-block-code\"><code>#show interface statusFrom here, I saw that there were several updates that needed to be done.</code></pre>\n<p><!-- /wp:code --></p>\n<p><!-- wp:paragraph --></p>\n<p>Performing the <em>show interface status </em>command showed that I had several things that needed to be updated. To list a few: out of date descriptions, port-channel groups on non-redundant switchports, dated hostname, and various open ports that should be disabled.</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<p>So, I address the quick and dirty: renamed switchport descriptions, disabled unused ports, changed down ports to an arbitrary VLAN # in the event that it did come back online, and fixed my \"archive\" link that automatically backed up my config to a local tftp server. I know, I should be using SFTP, but I don't know how to! Teach me.</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<p>Moving forward, I wanted to tackle the port-channels. I log into both switches (Core and the adjacent switch) and proceed to remove the fiber uplinks from the assigned channel-groups. Well, I started with the core...</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<p>That was a mistake, it completely threw my switches into error state. It's now 8AM, students are rolling in and teachers are starting to check students into our Student Information System (SIS).</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<p>Then, all phones go offline, my primary DC (domain controller), goes offline, printers aren't working and several people are calling me to tell me that the internet is not working!</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<p>It's because I blocked Google. ahahaha, Just kidding.</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<p>I quickly realized that the switchports originally configured are now in errdisable state! I oofed! First off, I should have waited until the end of the day to make these changes so that this sort of thing can be mitigated without causing a service outage. Second off, I needed to be in two places at once so that I could cycle both ports, prevent loops, and then verify that they were both up and running but I was alone. My colleague was still on his way in for the day.</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<p>After several minutes of frustration, running back and forth on an 18-acre campus, I finally did it. I cycled the ports, waited two minutes for the entire core to come online (I did a full restart) - we were finally online. I then had to test the DC to make sure it was happy, pinged the phone system and validated that the printers were operational again.</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<p>We were back online after 15 minutes of outage due to my stupidity. Reflecting on my ID-10-T error, I realized that I should have waited until the end of the day, notified my head master that I wanted to make the changes, scheduled the change and then proceeded to a planned change. Remember to stay humble and grounded. You can prevent these mistakes.</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<p>Lesson learned.</p>\n<p><!-- /wp:paragraph --></p>",
+            "author": {
+                "name": "Gary Innerarity"
+            },
+            "tags": [
+                   "TSHOOT",
+                   "Networking"
+            ],
+            "date_published": "2022-10-14T10:29:44-05:00",
+            "date_modified": "2022-10-14T10:29:44-05:00"
+        },
+        {
+            "id": "https://publii.garyinnerarity.com/starting-point-20-eve-ng-installation/index.html",
+            "url": "https://publii.garyinnerarity.com/starting-point-20-eve-ng-installation/index.html",
+            "title": "Starting Point 2.0 (Eve-NG installation) - 5.3.2019",
+            "summary": "Umm.. yeah, bro. I had a blog before. I had different priorities at the time, but now I'm back at it. You got beef? Or are you vegan? Today, I have Eve-NG configured on the Google Cloud Platform... This ended up being a total waste&hellip;",
+            "content_html": "<p><!-- wp:paragraph --></p>\n<p>Umm.. yeah, bro. I had a blog before. I had different priorities at the time, but now I'm back at it. You got beef? Or are you vegan?</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<p>Today, I have Eve-NG configured on the Google Cloud Platform... This ended up being a total waste of time. More about this later (See my GNS3 post).</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<p>My total cost was roughly $90/month. With me shutting the server down when I didn't use it, the monthly cost was $20... It became more of a hassle. I deleted my compute instance and moved on.</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:image {\"id\":64} --></p>\n<figure class=\"wp-block-image\"><figure class=\"wp-image-64\"><img loading=\"lazy\"  src=\"https://publii.garyinnerarity.com/media/posts/22/logo_eve_color.png\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://publii.garyinnerarity.com/media/posts/22/responsive/logo_eve_color-xs.png 300w ,https://publii.garyinnerarity.com/media/posts/22/responsive/logo_eve_color-sm.png 480w ,https://publii.garyinnerarity.com/media/posts/22/responsive/logo_eve_color-md.png 768w ,https://publii.garyinnerarity.com/media/posts/22/responsive/logo_eve_color-lg.png 1024w ,https://publii.garyinnerarity.com/media/posts/22/responsive/logo_eve_color-xl.png 1360w ,https://publii.garyinnerarity.com/media/posts/22/responsive/logo_eve_color-2xl.png 1600w\"  alt=\"\"></figure>\n<figcaption>eve-ng.net</figcaption>\n</figure>\n<p><!-- /wp:image --></p>\n<p><!-- wp:separator --></p>\n<hr class=\"wp-block-separator\"><!-- /wp:separator -->\n<p><!-- wp:paragraph --></p>\n<p>I subscribed to INE's All Access Pass. This was great, because for me, I paid $300(ish) about three years ago for their CCNA class, and this meant that I would have all of their classes for $99/month. I plan to have my employer pick up the tab in the new year if I end up liking the subscription.</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:button {\"align\":\"center\"} --></p>\n<div class=\"wp-block-button aligncenter\"><a class=\"wp-block-button__link\" href=\"https://ine.com/pages/all-access-pass\">INE All Access Pass!</a></div>\n<p><!-- /wp:button --></p>\n<p><!-- wp:separator --></p>\n<hr class=\"wp-block-separator\"><!-- /wp:separator -->\n<p><!-- wp:paragraph --></p>\n<p>If you're installing Eve-NG on Google Cloud Platform, you may need to use the following:</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:code --></p>\n<pre class=\"wp-block-code\"><code>##Community Edition installation repo commandwget -O - http://www.eve-ng.net/repo/install-eve.sh | bash -i </code></pre>\n<p><!-- /wp:code --></p>\n<p><!-- wp:paragraph --></p>\n<p>If you're like me and pre-installed the pro version, then you'll need this:</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:code --></p>\n<pre class=\"wp-block-code\"><code>## To roll back from EVE-NG Pro to the Community Edition, issue the following commands in the CLI of EVE&gt; apt install eve-ng eve-ng-guacamole&gt; systemctl disable docker&gt; systemctl disable docker.service&gt; systemctl stop docker.service&gt; systemctl disable udhcpd## Reboot EVE</code></pre>\n<p><!-- /wp:code --></p>\n<p><!-- wp:paragraph --></p>\n<p>Finally, do not forget about the license files!!</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<p>https://www.eve-ng.net/documentation/howto-s/62-howto-add-cisco-iou-iol</p>\n<p><!-- /wp:paragraph --></p>",
+            "author": {
+                "name": "Gary Innerarity"
+            },
+            "tags": [
+                   "Labs"
+            ],
+            "date_published": "2022-10-14T10:29:11-05:00",
+            "date_modified": "2022-10-14T10:29:11-05:00"
+        },
+        {
+            "id": "https://publii.garyinnerarity.com/ccna-certified/index.html",
+            "url": "https://publii.garyinnerarity.com/ccna-certified/index.html",
+            "title": "CCNA Certified!!",
+            "summary": "I don't have a write up on this journey, other than to thank Joey C. for guiding me through and answering all of my simple minded questions.",
+            "content_html": "<p><!-- wp:image {\"id\":177} --></p>\n<figure class=\"wp-block-image\"><figure class=\"wp-image-177\"><img loading=\"lazy\"  src=\"https://publii.garyinnerarity.com/media/posts/4/ccna_routerswitching_large.jpg\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://publii.garyinnerarity.com/media/posts/4/responsive/ccna_routerswitching_large-xs.jpg 300w ,https://publii.garyinnerarity.com/media/posts/4/responsive/ccna_routerswitching_large-sm.jpg 480w ,https://publii.garyinnerarity.com/media/posts/4/responsive/ccna_routerswitching_large-md.jpg 768w ,https://publii.garyinnerarity.com/media/posts/4/responsive/ccna_routerswitching_large-lg.jpg 1024w ,https://publii.garyinnerarity.com/media/posts/4/responsive/ccna_routerswitching_large-xl.jpg 1360w ,https://publii.garyinnerarity.com/media/posts/4/responsive/ccna_routerswitching_large-2xl.jpg 1600w\"  alt=\"\"></figure></figure>\n<p>I don't have a write up on this journey, other than to thank Joey C. for guiding me through and answering all of my simple minded questions. </p>\n<p><!-- /wp:image --></p>",
+            "author": {
+                "name": "Gary Innerarity"
+            },
+            "tags": [
+                   "Certs",
+                   "CCNA"
+            ],
+            "date_published": "2022-10-14T10:26:44-05:00",
+            "date_modified": "2022-10-14T10:26:44-05:00"
+        },
+        {
+            "id": "https://publii.garyinnerarity.com/ccent-certified/index.html",
+            "url": "https://publii.garyinnerarity.com/ccent-certified/index.html",
+            "title": "CCENT Certified!!",
+            "summary": "I don't have a write up on this journey, other than to thank Joey C. for guiding me through and answering all of my simple minded questions.",
+            "content_html": "<p><!-- wp:image {\"id\":173} --></p>\n<figure class=\"wp-block-image\"><figure class=\"wp-image-173\"><img loading=\"lazy\"  src=\"https://publii.garyinnerarity.com/media/posts/3/ccent_network_large.jpg\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://publii.garyinnerarity.com/media/posts/3/responsive/ccent_network_large-xs.jpg 300w ,https://publii.garyinnerarity.com/media/posts/3/responsive/ccent_network_large-sm.jpg 480w ,https://publii.garyinnerarity.com/media/posts/3/responsive/ccent_network_large-md.jpg 768w ,https://publii.garyinnerarity.com/media/posts/3/responsive/ccent_network_large-lg.jpg 1024w ,https://publii.garyinnerarity.com/media/posts/3/responsive/ccent_network_large-xl.jpg 1360w ,https://publii.garyinnerarity.com/media/posts/3/responsive/ccent_network_large-2xl.jpg 1600w\"  alt=\"\"></figure></figure>\n<p>I don't have a write up on this journey, other than to thank Joey C. for guiding me through and answering all of my simple minded questions. </p>\n<p><!-- /wp:image --></p>",
+            "author": {
+                "name": "Gary Innerarity"
+            },
+            "tags": [
+                   "Certs",
+                   "CCNA"
+            ],
+            "date_published": "2022-10-14T10:26:27-05:00",
+            "date_modified": "2022-10-14T10:26:27-05:00"
+        },
+        {
+            "id": "https://publii.garyinnerarity.com/1152018-time-management-for-sysadmins/index.html",
+            "url": "https://publii.garyinnerarity.com/1152018-time-management-for-sysadmins/index.html",
+            "title": "1.15.2018 - Time Management for SysAdmins",
+            "summary": "I usually cringe at titles and books about things like time management and organization. Often times, it's repeated information or 100% common sense. At least, for me. This is a great book with some amazing tips. I can tell you that I check my emails&hellip;",
+            "content_html": "<p><!-- wp:image {\"id\":95,\"align\":\"center\"} --></p>\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter\"><figure class=\"wp-image-95\"><img loading=\"lazy\"  src=\"https://publii.garyinnerarity.com/media/posts/2/timemanagement.jpg\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://publii.garyinnerarity.com/media/posts/2/responsive/timemanagement-xs.jpg 300w ,https://publii.garyinnerarity.com/media/posts/2/responsive/timemanagement-sm.jpg 480w ,https://publii.garyinnerarity.com/media/posts/2/responsive/timemanagement-md.jpg 768w ,https://publii.garyinnerarity.com/media/posts/2/responsive/timemanagement-lg.jpg 1024w ,https://publii.garyinnerarity.com/media/posts/2/responsive/timemanagement-xl.jpg 1360w ,https://publii.garyinnerarity.com/media/posts/2/responsive/timemanagement-2xl.jpg 1600w\"  alt=\"\"></figure></figure>\n</div>\n<p><!-- /wp:image --></p>\n<p><!-- wp:paragraph --></p>\n<p>I usually cringe at titles and books about things like time management and organization. Often times, it's repeated information or 100% common sense. At least, for me.</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<p>This is a great book with some amazing tips. I can tell you that I check my emails immediately, which this book recommends that you check it during designated block segments during the day... RUDE!</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<p>Seriously, read the book.</p>\n<p><!-- /wp:paragraph --></p>\n<p><!-- wp:paragraph --></p>\n<p>Link to buy the book: <a href=\"https://www.amazon.com/Time-Management-System-Administrators-Working/dp/0596007833/ref=pd_lpo_sbs_14_t_2?_encoding=UTF8&amp;psc=1&amp;refRID=B4Y3AVQJWM9026SCSRDX\">https://www.amazon.com/Time-Management-System-Administrators-Working/dp/0596007833/ref=pd_lpo_sbs_14_t_2?_encoding=UTF8&amp;psc=1&amp;refRID=B4Y3AVQJWM9026SCSRDX</a> </p>\n<p><!-- /wp:paragraph --></p>",
+            "author": {
+                "name": "Gary Innerarity"
+            },
+            "tags": [
+                   "Self-Improvement",
+                   "Books"
+            ],
+            "date_published": "2022-10-14T10:25:00-05:00",
+            "date_modified": "2022-10-14T10:25:00-05:00"
+        },
+        {
             "id": "https://publii.garyinnerarity.com/auto-create-folders-from-excel-or-google-sheets/index.html",
             "url": "https://publii.garyinnerarity.com/auto-create-folders-from-excel-or-google-sheets/index.html",
             "title": "Auto create folders from Excel or Google Sheets",
