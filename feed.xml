@@ -3,729 +3,483 @@
     <title>Gary Innerarity</title>
     <link href="https://publii.garyinnerarity.com/feed.xml" rel="self" />
     <link href="https://publii.garyinnerarity.com" />
-    <updated>2022-10-14T10:29:44-05:00</updated>
+    <updated>2022-10-14T10:44:53-05:00</updated>
     <author>
         <name>Gary Innerarity</name>
     </author>
     <id>https://publii.garyinnerarity.com</id>
 
     <entry>
-        <title>I oofed... - 5.10.2019</title>
+        <title>CyberSec &amp; Fraud - 5.22.2019</title>
         <author>
             <name>Gary Innerarity</name>
         </author>
-        <link href="https://publii.garyinnerarity.com/i-oofed-5102019/index.html"/>
-        <id>https://publii.garyinnerarity.com/i-oofed-5102019/index.html</id>
-            <category term="TSHOOT"/>
-            <category term="Networking"/>
+        <link href="https://publii.garyinnerarity.com/cybersec-andamp-fraud-5222019/index.html"/>
+        <id>https://publii.garyinnerarity.com/cybersec-andamp-fraud-5222019/index.html</id>
+            <category term="Conferences"/>
 
-        <updated>2022-10-14T10:29:44-05:00</updated>
+        <updated>2022-10-14T10:44:53-05:00</updated>
             <summary>
                 <![CDATA[
-                    Today, I started the day off with an oof... Picture this, Friday morning, I'm in the office early (7am) to start work on some configs before the campus started filling up with Admin, Faculty and students. I grab my coffee, sat down at your desk&hellip;
+                    I attended a Cyber Security and Fraud conference today with special agent Eric in the white collar crimes division in New Orleans. It was very insightful to learn about our immediate attacks and pressures. To start, there are countries are countries with written agendas to&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p><!-- wp:image {"id":166,"width":507,"height":284} --></p>
-<figure class="wp-block-image is-resized"><figure class="wp-image-166"><img loading="lazy"  src="https://publii.garyinnerarity.com/media/posts/23/channel-group.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://publii.garyinnerarity.com/media/posts/23/responsive/channel-group-xs.jpg 300w ,https://publii.garyinnerarity.com/media/posts/23/responsive/channel-group-sm.jpg 480w ,https://publii.garyinnerarity.com/media/posts/23/responsive/channel-group-md.jpg 768w ,https://publii.garyinnerarity.com/media/posts/23/responsive/channel-group-lg.jpg 1024w ,https://publii.garyinnerarity.com/media/posts/23/responsive/channel-group-xl.jpg 1360w ,https://publii.garyinnerarity.com/media/posts/23/responsive/channel-group-2xl.jpg 1600w"  alt="" width="507" height="284"></figure></figure>
+                <p><!-- wp:image {"id":221} --></p>
+<figure class="wp-block-image"><figure class="wp-image-221"><img loading="lazy"  src="https://publii.garyinnerarity.com/media/posts/33/email.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://publii.garyinnerarity.com/media/posts/33/responsive/email-xs.jpg 300w ,https://publii.garyinnerarity.com/media/posts/33/responsive/email-sm.jpg 480w ,https://publii.garyinnerarity.com/media/posts/33/responsive/email-md.jpg 768w ,https://publii.garyinnerarity.com/media/posts/33/responsive/email-lg.jpg 1024w ,https://publii.garyinnerarity.com/media/posts/33/responsive/email-xl.jpg 1360w ,https://publii.garyinnerarity.com/media/posts/33/responsive/email-2xl.jpg 1600w"  alt=""></figure></figure>
 <p><!-- /wp:image --></p>
 <p><!-- wp:paragraph --></p>
-<p>Today, I started the day off with an oof...</p>
+<p>I attended a Cyber Security and Fraud conference today with special agent Eric in the white collar crimes division in New Orleans. It was very insightful to learn about our immediate attacks and pressures.</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>Picture this, Friday morning, I'm in the office early (7am) to start work on some configs before the campus started filling up with Admin, Faculty and students. I grab my coffee, sat down at your desk and logged my PC.</p>
+<p>To start, there are countries are countries with written agendas to target countries like ours (USA). With bankers tightening their security and protocols for handling their processes, its now forcing the hackers and criminals to move their operations directly to the client(s). It's great that banking institutions are cracking down on security (passwords, encrypted communications, malware/adware/ransomware detectors and scanners and phishing simulations).</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>I was feeling confident, started studying my CCNP, felt like I knew my environment like it was the back of my hand, so I launched SuperPutty, configured my sessions (10.2.2.75) over SSHv2. I proceed to show my current interface status:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>#show interface statusFrom here, I saw that there were several updates that needed to be done.</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Performing the <em>show interface status </em>command showed that I had several things that needed to be updated. To list a few: out of date descriptions, port-channel groups on non-redundant switchports, dated hostname, and various open ports that should be disabled.</p>
+<p>With the immediate threat coming from foreign internationals, security agencies like the CIA, FBI and local police need to move quickly to identify and target these criminals. $350,000,000 was criminally taken through the banking system (I believe only in Louisiana), with 76% of which being recovered. That's a great number recovered! At the same time, there's a lot of money that was not recovered!</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>So, I address the quick and dirty: renamed switchport descriptions, disabled unused ports, changed down ports to an arbitrary VLAN # in the event that it did come back online, and fixed my "archive" link that automatically backed up my config to a local tftp server. I know, I should be using SFTP, but I don't know how to! Teach me.</p>
+<p>The FBI set up <a href="https://www.ic3.gov/default.aspx">https://www.ic3.gov/default.aspx</a> for community members to report suspected criminal activity. The quicker you report, the quicker they can deploy their task forces to combat the criminals.</p>
 <p><!-- /wp:paragraph --></p>
+<p><!-- wp:separator --></p>
+<hr class="wp-block-separator"><!-- /wp:separator -->
 <p><!-- wp:paragraph --></p>
-<p>Moving forward, I wanted to tackle the port-channels. I log into both switches (Core and the adjacent switch) and proceed to remove the fiber uplinks from the assigned channel-groups. Well, I started with the core...</p>
+<p>Don't let this overwhelm you, there are preventative measures that you can take to help combat these issues. One, keep all systems patched and updated - especially Windows environments. Two, training is the second best effort to protecting your data. The majority of criminals are allowed access (Directly/Indirectly) through email spoofing and spearheading. This means that they breach your account or a vendor and then monitor the accounts for months. Once they feel that they are ready, they are then able to "mimic" your rhetoric and attack others in your contacts list.</p>
 <p><!-- /wp:paragraph --></p>
+<p><!-- wp:separator --></p>
+<hr class="wp-block-separator"><!-- /wp:separator -->
 <p><!-- wp:paragraph --></p>
-<p>That was a mistake, it completely threw my switches into error state. It's now 8AM, students are rolling in and teachers are starting to check students into our Student Information System (SIS).</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Then, all phones go offline, my primary DC (domain controller), goes offline, printers aren't working and several people are calling me to tell me that the internet is not working!</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>It's because I blocked Google. ahahaha, Just kidding.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>I quickly realized that the switchports originally configured are now in errdisable state! I oofed! First off, I should have waited until the end of the day to make these changes so that this sort of thing can be mitigated without causing a service outage. Second off, I needed to be in two places at once so that I could cycle both ports, prevent loops, and then verify that they were both up and running but I was alone. My colleague was still on his way in for the day.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>After several minutes of frustration, running back and forth on an 18-acre campus, I finally did it. I cycled the ports, waited two minutes for the entire core to come online (I did a full restart) - we were finally online. I then had to test the DC to make sure it was happy, pinged the phone system and validated that the printers were operational again.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>We were back online after 15 minutes of outage due to my stupidity. Reflecting on my ID-10-T error, I realized that I should have waited until the end of the day, notified my head master that I wanted to make the changes, scheduled the change and then proceeded to a planned change. Remember to stay humble and grounded. You can prevent these mistakes.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Lesson learned.</p>
+<p>Image credit: <a href="https://www.pymnts.com/news/security-and-risk/2018/scams-bec-government-sfc-fbi-washington-dc/">https://www.pymnts.com/news/security-and-risk/2018/scams-bec-government-sfc-fbi-washington-dc/</a></p>
 <p><!-- /wp:paragraph --></p>
             ]]>
         </content>
     </entry>
     <entry>
-        <title>Starting Point 2.0 (Eve-NG installation) - 5.3.2019</title>
+        <title>CCNP Ch.1 - 5.19.2019</title>
         <author>
             <name>Gary Innerarity</name>
         </author>
-        <link href="https://publii.garyinnerarity.com/starting-point-20-eve-ng-installation/index.html"/>
-        <id>https://publii.garyinnerarity.com/starting-point-20-eve-ng-installation/index.html</id>
-            <category term="Labs"/>
+        <link href="https://publii.garyinnerarity.com/ccnp-ch1-5192019/index.html"/>
+        <id>https://publii.garyinnerarity.com/ccnp-ch1-5192019/index.html</id>
+            <category term="Certs"/>
 
-        <updated>2022-10-14T10:29:11-05:00</updated>
+        <updated>2022-10-14T10:44:15-05:00</updated>
             <summary>
                 <![CDATA[
-                    Umm.. yeah, bro. I had a blog before. I had different priorities at the time, but now I'm back at it. You got beef? Or are you vegan? Today, I have Eve-NG configured on the Google Cloud Platform... This ended up being a total waste&hellip;
+                    Today, I'm starting my journey for the CCNP v2 R&amp;S. I'm learning about the different Routing connections (Building Access, Building Distribution, Campus backbones, etc..). I'm glad to know that my campus is actually set up like their suggestions, with the exception of two buildings. Knowing&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <p><!-- wp:paragraph --></p>
-<p>Umm.. yeah, bro. I had a blog before. I had different priorities at the time, but now I'm back at it. You got beef? Or are you vegan?</p>
+<p>Today, I'm starting my journey for the CCNP v2 R&amp;S.</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>Today, I have Eve-NG configured on the Google Cloud Platform... This ended up being a total waste of time. More about this later (See my GNS3 post).</p>
+<p>I'm learning about the different Routing connections (<em>Building Access, Building Distribution, Campus backbones</em>, etc..). I'm glad to know that my campus is actually set up like their suggestions, with the exception of two buildings.</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>My total cost was roughly $90/month. With me shutting the server down when I didn't use it, the monthly cost was $20... It became more of a hassle. I deleted my compute instance and moved on.</p>
+<p>Knowing more, I now see where I may add a building distribution switch to limit the number of fiber connections running back to the core, but also increase feasibility of troubleshooting fewer switches in the long run.</p>
 <p><!-- /wp:paragraph --></p>
-<p><!-- wp:image {"id":64} --></p>
-<figure class="wp-block-image"><figure class="wp-image-64"><img loading="lazy"  src="https://publii.garyinnerarity.com/media/posts/22/logo_eve_color.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://publii.garyinnerarity.com/media/posts/22/responsive/logo_eve_color-xs.png 300w ,https://publii.garyinnerarity.com/media/posts/22/responsive/logo_eve_color-sm.png 480w ,https://publii.garyinnerarity.com/media/posts/22/responsive/logo_eve_color-md.png 768w ,https://publii.garyinnerarity.com/media/posts/22/responsive/logo_eve_color-lg.png 1024w ,https://publii.garyinnerarity.com/media/posts/22/responsive/logo_eve_color-xl.png 1360w ,https://publii.garyinnerarity.com/media/posts/22/responsive/logo_eve_color-2xl.png 1600w"  alt=""></figure>
-<figcaption>eve-ng.net</figcaption>
-</figure>
-<p><!-- /wp:image --></p>
 <p><!-- wp:separator --></p>
 <hr class="wp-block-separator"><!-- /wp:separator -->
 <p><!-- wp:paragraph --></p>
-<p>I subscribed to INE's All Access Pass. This was great, because for me, I paid $300(ish) about three years ago for their CCNA class, and this meant that I would have all of their classes for $99/month. I plan to have my employer pick up the tab in the new year if I end up liking the subscription.</p>
+<p>Topics that I need to remember or work on the most:</p>
 <p><!-- /wp:paragraph --></p>
-<p><!-- wp:button {"align":"center"} --></p>
-<div class="wp-block-button aligncenter"><a class="wp-block-button__link" href="https://ine.com/pages/all-access-pass">INE All Access Pass!</a></div>
-<p><!-- /wp:button --></p>
+<p><!-- wp:list --></p>
+<ul>
+<li>Routing Protocols
+<ul>
+<li>RIP - Distance-Vector</li>
+<li>EIGRP (Advanced) Distance-Vector</li>
+<li>OSPF - Link-State</li>
+<li>IS-IS - Link-State</li>
+<li>BGP - Path-Vector</li>
+</ul>
+</li>
+</ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>All routing protocols are currently IGP (Interior Gateway Protocols) except for BGP, which is an EGP (Exterior Gateway Protocol).</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The second topic that I need to focus on is Split-Horizon and Poison Reverse.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><em>Split-Horizon</em> is the feature that prevents a route learned on one interface from being advertised through the same interface again. (CH.1)</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The <em>Poison Reverse </em>feature causes a route received on the same interface to be advertised back out, however, it uses a metric of "<em>infinite</em>".</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The third important technology emphasized in this chapter were the different network traffic types.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul>
+<li>Unicast - <em>One to One</em></li>
+<li>Broadcast - <em>One to Many</em></li>
+<li>Multicast - <em>One to Many</em>, but specific</li>
+<li>Anycast - IPv6 only, assigned to multiple devices for One to <em>Nearest</em></li>
+</ul>
+<p><!-- /wp:list --></p>
 <p><!-- wp:separator --></p>
 <hr class="wp-block-separator"><!-- /wp:separator -->
 <p><!-- wp:paragraph --></p>
-<p>If you're installing Eve-NG on Google Cloud Platform, you may need to use the following:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>##Community Edition installation repo commandwget -O - http://www.eve-ng.net/repo/install-eve.sh | bash -i </code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>If you're like me and pre-installed the pro version, then you'll need this:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>## To roll back from EVE-NG Pro to the Community Edition, issue the following commands in the CLI of EVE&gt; apt install eve-ng eve-ng-guacamole&gt; systemctl disable docker&gt; systemctl disable docker.service&gt; systemctl stop docker.service&gt; systemctl disable udhcpd## Reboot EVE</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Finally, do not forget about the license files!!</p>
+<p>Reference:</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>https://www.eve-ng.net/documentation/howto-s/62-howto-add-cisco-iou-iol</p>
+<p>Official Cert Guide by Kevin Wallace, CCIE No. 7945 for CCNP ROUTE 300-101</p>
 <p><!-- /wp:paragraph --></p>
             ]]>
         </content>
     </entry>
     <entry>
-        <title>CCNA Certified!!</title>
+        <title>Cloud My Lab - 5.19.2019</title>
         <author>
             <name>Gary Innerarity</name>
         </author>
-        <link href="https://publii.garyinnerarity.com/ccna-certified/index.html"/>
-        <id>https://publii.garyinnerarity.com/ccna-certified/index.html</id>
-            <category term="Certs"/>
-            <category term="CCNA"/>
+        <link href="https://publii.garyinnerarity.com/cloud-my-lab-5192019/index.html"/>
+        <id>https://publii.garyinnerarity.com/cloud-my-lab-5192019/index.html</id>
+            <category term="Labs"/>
 
-        <updated>2022-10-14T10:26:44-05:00</updated>
+        <updated>2022-10-14T10:43:55-05:00</updated>
             <summary>
                 <![CDATA[
-                    I don't have a write up on this journey, other than to thank Joey C. for guiding me through and answering all of my simple minded questions.
+                    Okay, I have to say, I'm really enjoying "Cloud my Lab". They finally got my instance (Pod) up and running about 72 hours after my payment processed. To get into the server, all I had to do was RDP in using my Windows RDP client&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p><!-- wp:image {"id":177} --></p>
-<figure class="wp-block-image"><figure class="wp-image-177"><img loading="lazy"  src="https://publii.garyinnerarity.com/media/posts/4/ccna_routerswitching_large.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://publii.garyinnerarity.com/media/posts/4/responsive/ccna_routerswitching_large-xs.jpg 300w ,https://publii.garyinnerarity.com/media/posts/4/responsive/ccna_routerswitching_large-sm.jpg 480w ,https://publii.garyinnerarity.com/media/posts/4/responsive/ccna_routerswitching_large-md.jpg 768w ,https://publii.garyinnerarity.com/media/posts/4/responsive/ccna_routerswitching_large-lg.jpg 1024w ,https://publii.garyinnerarity.com/media/posts/4/responsive/ccna_routerswitching_large-xl.jpg 1360w ,https://publii.garyinnerarity.com/media/posts/4/responsive/ccna_routerswitching_large-2xl.jpg 1600w"  alt=""></figure></figure>
-<p>I don't have a write up on this journey, other than to thank Joey C. for guiding me through and answering all of my simple minded questions. </p>
+                <p><!-- wp:image {"id":209} --></p>
+<figure class="wp-block-image"><figure class="wp-image-209"><img loading="lazy"  src="https://publii.garyinnerarity.com/media/posts/31/download.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://publii.garyinnerarity.com/media/posts/31/responsive/download-xs.png 300w ,https://publii.garyinnerarity.com/media/posts/31/responsive/download-sm.png 480w ,https://publii.garyinnerarity.com/media/posts/31/responsive/download-md.png 768w ,https://publii.garyinnerarity.com/media/posts/31/responsive/download-lg.png 1024w ,https://publii.garyinnerarity.com/media/posts/31/responsive/download-xl.png 1360w ,https://publii.garyinnerarity.com/media/posts/31/responsive/download-2xl.png 1600w"  alt=""></figure></figure>
 <p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Okay, I have to say, I'm really enjoying "Cloud my Lab". They finally got my instance (Pod) up and running about 72 hours after my payment processed.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>To get into the server, all I had to do was RDP in using my Windows RDP client and the provided IP and user credentials. Once I was in, I had all of the images pre-loaded and GNS3 configured for my first project.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>For $30, I have to say, it's totally worth it! Sure, it's a convenience fee, but their technical staff stand ready to help with any trouble that I have.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>In addition, I don't have to worry about finding the best ios files and go through the hassle of uploading them. Also, this environment can be operated from a Chromebook RDP window app... that's pretty convenient! I'll create more posts later as I build out my lab environments and test additional features.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Edit:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>I found out today that my instance, "Pod", only has 4GB of RAM while my subscription is currently set to "Tiny" which supports 8GB of RAM... I decided to upgrade to a "Small" instance because I noticed a little lag when I launched my text editor "Atom.io", after doing so, I checked the CPU and RAM from the system properties and noticed that I was not getting the level of service that I paid for during my original subscription period. I've contacted their support and they are working diligently to resolve my issue.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>I'm very excited to have the full 8vCPU's and 16GB of RAM! I may even use this system for remote testing VPNs and ICMP from outside of my network.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Edit #2: This is what matters...</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>I was completely wrong about the configuration and setup over there at Cloud My Lab. After discovering that my host machine only had 4GB of RAM allocated, I contacted support to get it fixed. With the $30/mnth "Tiny" package, you should be getting 8GB RAM. Each time I started a text editor or web browwser, the CPU and RAM would spike! So I was a little frustrated.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>After communicating with support, they explained that the GNS3 hosted instance gets the 8GB RAM remotely and that the Windows Host that you RDP into only gets the 4GB... This made a lot of sense once it was explained. It certainly explained the reason for the Windows Host maxing resources while the GNS3 Host continued to respond perfectly fine.</p>
+<p><!-- /wp:paragraph --></p>
             ]]>
         </content>
     </entry>
     <entry>
-        <title>CCENT Certified!!</title>
+        <title>Ansible (Red Hat) - 5.18.2019</title>
         <author>
             <name>Gary Innerarity</name>
         </author>
-        <link href="https://publii.garyinnerarity.com/ccent-certified/index.html"/>
-        <id>https://publii.garyinnerarity.com/ccent-certified/index.html</id>
-            <category term="Certs"/>
-            <category term="CCNA"/>
+        <link href="https://publii.garyinnerarity.com/ansible-red-hat-5182019/index.html"/>
+        <id>https://publii.garyinnerarity.com/ansible-red-hat-5182019/index.html</id>
+            <category term="Automation"/>
 
-        <updated>2022-10-14T10:26:27-05:00</updated>
+        <updated>2022-10-14T10:42:30-05:00</updated>
             <summary>
                 <![CDATA[
-                    I don't have a write up on this journey, other than to thank Joey C. for guiding me through and answering all of my simple minded questions.
+                    Today, I'm installing Ansible on my Mac... For Mac, you need to install pip, which is done by following the instructions provided by Ansible, which didn't work for me, so I found an easier command: $ sudo easy_install pip With that command, I was able&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p><!-- wp:image {"id":173} --></p>
-<figure class="wp-block-image"><figure class="wp-image-173"><img loading="lazy"  src="https://publii.garyinnerarity.com/media/posts/3/ccent_network_large.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://publii.garyinnerarity.com/media/posts/3/responsive/ccent_network_large-xs.jpg 300w ,https://publii.garyinnerarity.com/media/posts/3/responsive/ccent_network_large-sm.jpg 480w ,https://publii.garyinnerarity.com/media/posts/3/responsive/ccent_network_large-md.jpg 768w ,https://publii.garyinnerarity.com/media/posts/3/responsive/ccent_network_large-lg.jpg 1024w ,https://publii.garyinnerarity.com/media/posts/3/responsive/ccent_network_large-xl.jpg 1360w ,https://publii.garyinnerarity.com/media/posts/3/responsive/ccent_network_large-2xl.jpg 1600w"  alt=""></figure></figure>
-<p>I don't have a write up on this journey, other than to thank Joey C. for guiding me through and answering all of my simple minded questions. </p>
+                <p><!-- wp:image {"id":182} --></p>
+<figure class="wp-block-image"><figure class="wp-image-182"><img loading="lazy"  src="https://publii.garyinnerarity.com/media/posts/30/ansible.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://publii.garyinnerarity.com/media/posts/30/responsive/ansible-xs.png 300w ,https://publii.garyinnerarity.com/media/posts/30/responsive/ansible-sm.png 480w ,https://publii.garyinnerarity.com/media/posts/30/responsive/ansible-md.png 768w ,https://publii.garyinnerarity.com/media/posts/30/responsive/ansible-lg.png 1024w ,https://publii.garyinnerarity.com/media/posts/30/responsive/ansible-xl.png 1360w ,https://publii.garyinnerarity.com/media/posts/30/responsive/ansible-2xl.png 1600w"  alt=""></figure></figure>
 <p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Today, I'm installing <a href="https://www.ansible.com/">Ansible </a>on my Mac...</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>For Mac, you need to install pip, which is done by following the instructions provided by <a href="https://www.ansible.com/">Ansible</a>, which didn't work for me, so I found an easier command:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:code --></p>
+<pre class="wp-block-code"><code>$ sudo easy_install pip</code></pre>
+<p><!-- /wp:code --></p>
+<p><!-- wp:paragraph --></p>
+<p>With that command, I was able to make it to the next phase... which didn't work. At this point, I was very frustrated! After deciding to read all of the <a href="https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html?extIdCarryOver=true&amp;sc_cid=701f2000001OH7YAAW#latest-releases-via-pip">instructions on Ansible</a>, I found a paragraph regarding MacOS <a href="https://support.apple.com/downloads/mavericks"> 10.9</a> . Well, I was running <a href="https://support.apple.com/kb/DL1994?locale=en_US">10.14</a>. It obviously inherited its <a href="https://www.urbandictionary.com/define.php?term=bitchiness">bitchiness </a>from<a href="https://support.apple.com/downloads/mavericks"> 10.9</a>. So, I ran the command:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:code --></p>
+<pre class="wp-block-code"><code>$ CFLAGS=-Qunused-arguments CPPFLAGS=-Qunused-arguments pip install --user ansible</code></pre>
+<p><!-- /wp:code --></p>
+<p><!-- wp:paragraph --></p>
+<p>All problems were solved. At this point, I'm considering a degree in Linux based systems so that I can actually understand this shit. But no, I'm going to continue my path toward the <a href="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/expert/ccie-routing-switching.html">#CCIE</a> and <a href="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/architect/ccar.html">#CCAr</a>!</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:separator --></p>
+<hr class="wp-block-separator"><!-- /wp:separator -->
+<p><!-- wp:paragraph --></p>
+<p>Credit: <a href="https://www.ansible.com/">Ansible </a>for making an amazing product that's <a href="https://en.wikipedia.org/wiki/Open_source">openSource</a>, <a href="https://www.apple.com/">Apple </a>for making amazing hardware with very low specs, and <a href="https://www.cisco.com/">Cisco </a>for being amazing.</p>
+<p><!-- /wp:paragraph --></p>
             ]]>
         </content>
     </entry>
     <entry>
-        <title>1.15.2018 - Time Management for SysAdmins</title>
+        <title>Carpal Tunnel &amp; RSI - 5.17.2019</title>
         <author>
             <name>Gary Innerarity</name>
         </author>
-        <link href="https://publii.garyinnerarity.com/1152018-time-management-for-sysadmins/index.html"/>
-        <id>https://publii.garyinnerarity.com/1152018-time-management-for-sysadmins/index.html</id>
+        <link href="https://publii.garyinnerarity.com/carpal-tunnel-andamp-rsi-5172019/index.html"/>
+        <id>https://publii.garyinnerarity.com/carpal-tunnel-andamp-rsi-5172019/index.html</id>
             <category term="Self-Improvement"/>
-            <category term="Books"/>
 
-        <updated>2022-10-14T10:25:00-05:00</updated>
+        <updated>2022-10-14T10:41:51-05:00</updated>
             <summary>
                 <![CDATA[
-                    I usually cringe at titles and books about things like time management and organization. Often times, it's repeated information or 100% common sense. At least, for me. This is a great book with some amazing tips. I can tell you that I check my emails&hellip;
+                    Well, today is one year too late. I really feel like I've been abusing myself by not taking care of my RSI (Repetitive Strain Injury), which has now formed into carpal tunnel. Between my daily commute where I put pressure on the wrist, the 8+&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p><!-- wp:image {"id":95,"align":"center"} --></p>
+                <p><!-- wp:image {"id":161} --></p>
+<figure class="wp-block-image"><figure class="wp-image-161"><img loading="lazy"  src="https://publii.garyinnerarity.com/media/posts/29/carpal-tunnel.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://publii.garyinnerarity.com/media/posts/29/responsive/carpal-tunnel-xs.jpg 300w ,https://publii.garyinnerarity.com/media/posts/29/responsive/carpal-tunnel-sm.jpg 480w ,https://publii.garyinnerarity.com/media/posts/29/responsive/carpal-tunnel-md.jpg 768w ,https://publii.garyinnerarity.com/media/posts/29/responsive/carpal-tunnel-lg.jpg 1024w ,https://publii.garyinnerarity.com/media/posts/29/responsive/carpal-tunnel-xl.jpg 1360w ,https://publii.garyinnerarity.com/media/posts/29/responsive/carpal-tunnel-2xl.jpg 1600w"  alt=""></figure></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Well, today is one year too late. I really feel like I've been abusing myself by not taking care of my RSI (Repetitive Strain Injury), which has now formed into carpal tunnel.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Between my daily commute where I put pressure on the wrist, the 8+ hour work days where I hold my mouse improperly, and the additional time on the computer at home has taken a toll on my right arm and wrist.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Now of course, this is a self diagnosis. I have not spoken to a trained professional, except for my family friend who is a licensed chiropractor. She has guided me for several months, reducing the strain on my wrist nearly 80%! This is huge. However, it's still unbearable. I'm currently scheduling doctor visits with our local "Hand Center of Louisiana" to get my wrist checked out.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>I'm feeling nervous, but less than I was eight months ago. I decided to postpone this procedure because I thought that it would take several months of recovery. After speaking with a colleague , it's now apparent that I will be able to recover within two hours, functional recovery in four days and complete recovery within three months. That's not bad.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>If you're experiencing pains in your wrist please consider getting ergonomic equipment such as a standing desk, vertical mouse, and standing desk! If you do not want to stand then invest in a proper chair that can support your body type with the option of adjusting between 90 and 130 degrees to allow for proper blood flow.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:gallery {"ids":[162,163]} --></p>
+<ul class="wp-block-gallery columns-2 is-cropped">
+<li class="blocks-gallery-item">
+<figure><figure class="wp-image-162"><img loading="lazy"  src="https://publii.garyinnerarity.com/media/posts/29/ergonimickeyboard.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://publii.garyinnerarity.com/media/posts/29/responsive/ergonimickeyboard-xs.jpg 300w ,https://publii.garyinnerarity.com/media/posts/29/responsive/ergonimickeyboard-sm.jpg 480w ,https://publii.garyinnerarity.com/media/posts/29/responsive/ergonimickeyboard-md.jpg 768w ,https://publii.garyinnerarity.com/media/posts/29/responsive/ergonimickeyboard-lg.jpg 1024w ,https://publii.garyinnerarity.com/media/posts/29/responsive/ergonimickeyboard-xl.jpg 1360w ,https://publii.garyinnerarity.com/media/posts/29/responsive/ergonimickeyboard-2xl.jpg 1600w"  alt="" data-id="162" data-link="https://ospfcommand.com/ergonimickeyboard/"></figure></figure>
+</li>
+<li class="blocks-gallery-item">
+<figure><figure class="wp-image-163"><img loading="lazy"  src="https://publii.garyinnerarity.com/media/posts/29/verticalmouse.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://publii.garyinnerarity.com/media/posts/29/responsive/verticalmouse-xs.jpg 300w ,https://publii.garyinnerarity.com/media/posts/29/responsive/verticalmouse-sm.jpg 480w ,https://publii.garyinnerarity.com/media/posts/29/responsive/verticalmouse-md.jpg 768w ,https://publii.garyinnerarity.com/media/posts/29/responsive/verticalmouse-lg.jpg 1024w ,https://publii.garyinnerarity.com/media/posts/29/responsive/verticalmouse-xl.jpg 1360w ,https://publii.garyinnerarity.com/media/posts/29/responsive/verticalmouse-2xl.jpg 1600w"  alt="" data-id="163" data-link="https://ospfcommand.com/verticalmouse/"></figure></figure>
+</li>
+</ul>
+<p><!-- /wp:gallery --></p>
+<p><!-- wp:paragraph --></p>
+<p>Seriously, take care of yourself. Invest in proper equipment, good food, and study materials!</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Edit: I visited a doctor to undergo extended rehab. We identified about eight (8) areas of concern that have all lead to the issues in my arm and wrist. Seriously, starting in my ankles, progressing through the hips and through the spine... Please, spend the time to take care of yourself with daily stretching and ergonomic checkups. Doing this can help you avoid serious irreversible damage to your body.</p>
+<p><!-- /wp:paragraph --></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>5.13.2018 - SuperPuTTY</title>
+        <author>
+            <name>Gary Innerarity</name>
+        </author>
+        <link href="https://publii.garyinnerarity.com/5132018-superputty/index.html"/>
+        <id>https://publii.garyinnerarity.com/5132018-superputty/index.html</id>
+            <category term="Tools"/>
+
+        <updated>2022-10-14T10:39:51-05:00</updated>
+            <summary>
+                <![CDATA[
+                    I have to say, SuperPuTTY is amazing. I wish I could justify the purchase of SecureCRT, but for now, SuperPuTTY is the winner. Before you head over to the SuperPuTTY distro on GitHub, you will need to make sure that you have Putty downloaded to&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><!-- wp:image {"id":133,"align":"center","width":580,"height":314} --></p>
 <div class="wp-block-image">
-<figure class="aligncenter"><figure class="wp-image-95"><img loading="lazy"  src="https://publii.garyinnerarity.com/media/posts/2/timemanagement.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://publii.garyinnerarity.com/media/posts/2/responsive/timemanagement-xs.jpg 300w ,https://publii.garyinnerarity.com/media/posts/2/responsive/timemanagement-sm.jpg 480w ,https://publii.garyinnerarity.com/media/posts/2/responsive/timemanagement-md.jpg 768w ,https://publii.garyinnerarity.com/media/posts/2/responsive/timemanagement-lg.jpg 1024w ,https://publii.garyinnerarity.com/media/posts/2/responsive/timemanagement-xl.jpg 1360w ,https://publii.garyinnerarity.com/media/posts/2/responsive/timemanagement-2xl.jpg 1600w"  alt=""></figure></figure>
+<figure class="aligncenter is-resized"><figure class="wp-image-133"><img loading="lazy"  src="https://publii.garyinnerarity.com/media/posts/28/superputty.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://publii.garyinnerarity.com/media/posts/28/responsive/superputty-xs.png 300w ,https://publii.garyinnerarity.com/media/posts/28/responsive/superputty-sm.png 480w ,https://publii.garyinnerarity.com/media/posts/28/responsive/superputty-md.png 768w ,https://publii.garyinnerarity.com/media/posts/28/responsive/superputty-lg.png 1024w ,https://publii.garyinnerarity.com/media/posts/28/responsive/superputty-xl.png 1360w ,https://publii.garyinnerarity.com/media/posts/28/responsive/superputty-2xl.png 1600w"  alt="" width="580" height="314"></figure></figure>
 </div>
 <p><!-- /wp:image --></p>
 <p><!-- wp:paragraph --></p>
-<p>I usually cringe at titles and books about things like time management and organization. Often times, it's repeated information or 100% common sense. At least, for me.</p>
+<p>I have to say, <a href="https://github.com/jimradford/superputty">SuperPuTTY </a>is amazing. I wish I could justify the purchase of <a href="https://www.vandyke.com/products/securecrt/">SecureCRT</a>, but for now, <a href="https://github.com/jimradford/superputty">SuperPuTTY </a>is the winner.</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>This is a great book with some amazing tips. I can tell you that I check my emails immediately, which this book recommends that you check it during designated block segments during the day... RUDE!</p>
+<p>Before you head over to the <a href="https://github.com/jimradford/superputty">SuperPuTTY distro on GitHub</a>, you will need to make sure that you have <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/">Putty downloaded</a> to your computer. I like using <a href="https://www.microsoft.com/en-us/windows">Windows</a> as my primary workstation, but I may change it to a <a href="https://www.apple.com/macbook-pro/">Mac Book Pro</a> within the next year. You know, it's the whole debate between - should I put a down payment on a house or buy a Mac... Tough decision. I think I need to phone in <a href="https://www.daveramsey.com/">Dave Ramsey</a>.</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
-<p>Seriously, read the book.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Link to buy the book: <a href="https://www.amazon.com/Time-Management-System-Administrators-Working/dp/0596007833/ref=pd_lpo_sbs_14_t_2?_encoding=UTF8&amp;psc=1&amp;refRID=B4Y3AVQJWM9026SCSRDX">https://www.amazon.com/Time-Management-System-Administrators-Working/dp/0596007833/ref=pd_lpo_sbs_14_t_2?_encoding=UTF8&amp;psc=1&amp;refRID=B4Y3AVQJWM9026SCSRDX</a> </p>
-<p><!-- /wp:paragraph --></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Auto create folders from Excel or Google Sheets</title>
-        <author>
-            <name>Gary Innerarity</name>
-        </author>
-        <link href="https://publii.garyinnerarity.com/auto-create-folders-from-excel-or-google-sheets/index.html"/>
-        <id>https://publii.garyinnerarity.com/auto-create-folders-from-excel-or-google-sheets/index.html</id>
-            <category term="Windows"/>
-            <category term="Automation"/>
-
-        <updated>2022-10-13T19:40:22-05:00</updated>
-            <summary>
-                <![CDATA[
-                    Looking to auto-create folders in Windows 10 / 11 using excel data and a simple script? Keep reading, I'll teach you how to get the script formatted with one formula in Microsoft Excel or Google Sheets to combine mixed strings of data into a single&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p><!-- wp:paragraph --></p>
-<p>Looking to auto-create folders in Windows 10 / 11 using excel data and a simple script?</p>
-<p><!-- /wp:paragraph --> <!-- wp:paragraph --></p>
-<p>Keep reading, I'll teach you how to get the script formatted with one formula in Microsoft Excel or Google Sheets to combine mixed strings of data into a single column. From there, you'll copy the combined string into a file and run it with hundreds of folders created in seconds!</p>
-<p><!-- /wp:paragraph --> <!-- wp:separator --></p>
-<hr class="wp-block-separator has-alpha-channel-opacity">
-<p><!-- /wp:separator --> <!-- wp:heading --></p>
-<h2>Format excel with two columns.</h2>
-<p><!-- /wp:heading --> <!-- wp:table --></p>
-<figure class="wp-block-table">
-<table>
-<tbody>
-<tr>
-<td>Name of Folders</td>
-<td>Formula</td>
-</tr>
-<tr>
-<td>Last, FirstName</td>
-<td>=concatenate("MD" ",",A2)</td>
-</tr>
-</tbody>
-</table>
-</figure>
-<p><!-- /wp:table --> <!-- wp:paragraph --></p>
-<p>Copy down that formula throughout your sheet to get the formatting for the number of folders you need. In my case, it was 569...</p>
-<p><!-- /wp:paragraph --> <!-- wp:paragraph --></p>
-<p>You want to end up with this format (I added the numbers to help signal different names, this won't "happen" to you):</p>
-<p><!-- /wp:paragraph --> <!-- wp:code --></p>
-<pre class="wp-block-code"><code>MD "Last, FirstName0"
-MD "Last, FirstName1"</code></pre>
-<p><!-- /wp:code --> <!-- wp:heading --></p>
-<h2>Create the Script</h2>
-<p><!-- /wp:heading --> <!-- wp:paragraph --></p>
-<p>Now, copy that formula column, with the above formatted text and past (Ctrl + Shift + V) without formatting into a text document (notepad).</p>
-<p><!-- /wp:paragraph --> <!-- wp:heading {"level":3} --></p>
-<h3>Save the Script</h3>
-<p><!-- /wp:heading --> <!-- wp:paragraph --></p>
-<p>Save that notepad file as FileName.CMD (Must be saved in CMD format to work) and save it to the file location that you want the folders to be created in.</p>
-<p><!-- /wp:paragraph --> <!-- wp:image {"id":1216,"sizeSlug":"full","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-full"><figure class="wp-image-1216"><img loading="lazy"  src="https://www.garyinnerarity.com/wp-content/uploads/2022/09/image-5.png" data-is-external-image="true"  alt=""></figure></figure>
-<p><!-- /wp:image --> <!-- wp:paragraph --></p>
-<p>For example: if you want 569 desktop folders to be created on your desktop, save them as the file name - on your desktop.</p>
-<p><!-- /wp:paragraph --> <!-- wp:heading {"level":3} --></p>
-<h3>Run the Script</h3>
-<p><!-- /wp:heading --> <!-- wp:paragraph --></p>
-<p>Now, you're ready to run the file. Double-click the FileName.CMD file and let the script execute!</p>
-<p><!-- /wp:paragraph --> <!-- wp:image {"id":1217,"sizeSlug":"full","linkDestination":"none"} --></p>
-<figure class="wp-block-image size-full"><figure class="wp-image-1217"><img loading="lazy"  src="https://www.garyinnerarity.com/wp-content/uploads/2022/09/image-6.png" data-is-external-image="true"  alt=""></figure></figure>
-<p><!-- /wp:image --> <!-- wp:paragraph --></p>
-<p>Done! File created. If there's a duplicate file, you'll see it error out in a terminal window, but the other files should be created. IF NOT, just remove those names from the CMD file and you're good to keep processing.</p>
-<p><!-- /wp:paragraph --> <!-- wp:paragraph --></p>
-<p> </p>
-<p><!-- /wp:paragraph --> <!-- wp:paragraph --></p>
-<p> </p>
-<p><!-- /wp:paragraph --> <!-- wp:paragraph --></p>
-<p> </p>
-<p><!-- /wp:paragraph --></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Gary Innerarity</title>
-        <author>
-            <name>Gary Innerarity</name>
-        </author>
-        <link href="https://publii.garyinnerarity.com/testing-post/index.html"/>
-        <id>https://publii.garyinnerarity.com/testing-post/index.html</id>
-
-        <updated>2022-10-13T21:02:16-05:00</updated>
-            <summary>
-                <![CDATA[
-                    Solutions Architect Amplified IT I, II, Sec | CCNA, CCENT, CMNO | MTA | GCP Welcome to my site. It’s a work in progress. I’m slowly releasing my private documentation library for public use on complex and beginner topics to help those where documentation fell&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                
-    <h2 id="solutions-architect">
-      Solutions Architect
-    </h2>
-
-  <p>
-    Amplified IT I, II, Sec | CCNA, CCENT, CMNO | MTA | GCP
-<br>
-<br>Welcome to my site. It’s a work in progress. I’m slowly releasing my private documentation library for public use on complex and beginner topics to help those where documentation fell short.<br>Topics will include Cloud Architecting, DevOps, NetOps, and Systems administration. I may even post a few times about management and navigating challenges as a Director of Technology.<br>
-  </p>
-
-    <figure class="post__image post__image--wide">
-      <img loading="lazy" src="https://publii.garyinnerarity.com/media/posts/1/homepage.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://publii.garyinnerarity.com/media/posts/1/responsive/homepage-xs.jpg 300w ,https://publii.garyinnerarity.com/media/posts/1/responsive/homepage-sm.jpg 480w ,https://publii.garyinnerarity.com/media/posts/1/responsive/homepage-md.jpg 768w ,https://publii.garyinnerarity.com/media/posts/1/responsive/homepage-lg.jpg 1024w ,https://publii.garyinnerarity.com/media/posts/1/responsive/homepage-xl.jpg 1360w ,https://publii.garyinnerarity.com/media/posts/1/responsive/homepage-2xl.jpg 1600w"  height="426" width="749" alt="Gary Innerarity Solutions Architect" />
-      <figcaption>Gary Innerarity Solutions Architect</figcaption>
-    </figure>
-
-  <div  class="gallery-wrapper gallery-wrapper--wide">
-    <div class="gallery" data-columns="3">
-      <figure class="gallery__item">
-      <a href="https://publii.garyinnerarity.com/media/posts/1/gallery/AMPlvl2-2.png" data-size="200x200">
-        <img loading="lazy" src="https://publii.garyinnerarity.com/media/posts/1/gallery/AMPlvl2-2-thumbnail.png" height="200" width="200" alt="" />
-      </a>
-      
-    </figure><figure class="gallery__item">
-      <a href="https://publii.garyinnerarity.com/media/posts/1/gallery/SEC-2.png" data-size="200x200">
-        <img loading="lazy" src="https://publii.garyinnerarity.com/media/posts/1/gallery/SEC-2-thumbnail.png" height="200" width="200" alt="" />
-      </a>
-      
-    </figure><figure class="gallery__item">
-      <a href="https://publii.garyinnerarity.com/media/posts/1/gallery/AMPlvl1-2.png" data-size="200x200">
-        <img loading="lazy" src="https://publii.garyinnerarity.com/media/posts/1/gallery/AMPlvl1-2-thumbnail.png" height="200" width="200" alt="" />
-      </a>
-      
-    </figure>
-    </div>
-  </div>
-
-  <div  class="gallery-wrapper gallery-wrapper--wide">
-    <div class="gallery" data-columns="3">
-      <figure class="gallery__item">
-      <a href="https://publii.garyinnerarity.com/media/posts/1/gallery/CCNA.png" data-size="248x182">
-        <img loading="lazy" src="https://publii.garyinnerarity.com/media/posts/1/gallery/CCNA-thumbnail.png" height="182" width="248" alt="" />
-      </a>
-      
-    </figure><figure class="gallery__item">
-      <a href="https://publii.garyinnerarity.com/media/posts/1/gallery/CMNO.png" data-size="247x173">
-        <img loading="lazy" src="https://publii.garyinnerarity.com/media/posts/1/gallery/CMNO-thumbnail.png" height="173" width="247" alt="" />
-      </a>
-      
-    </figure><figure class="gallery__item">
-      <a href="https://publii.garyinnerarity.com/media/posts/1/gallery/CCENT.png" data-size="268x181">
-        <img loading="lazy" src="https://publii.garyinnerarity.com/media/posts/1/gallery/CCENT-thumbnail.png" height="181" width="268" alt="" />
-      </a>
-      
-    </figure>
-    </div>
-  </div>
-
-  <p>
-    
-  </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>OpenVPN On Raspberry Pi Virtually</title>
-        <author>
-            <name>Gary Innerarity</name>
-        </author>
-        <link href="https://publii.garyinnerarity.com/openvpn-on-raspberry-pi-virtually/index.html"/>
-        <id>https://publii.garyinnerarity.com/openvpn-on-raspberry-pi-virtually/index.html</id>
-            <category term="Cloud-Networking"/>
-
-        <updated>2022-10-13T10:10:14-05:00</updated>
-            <summary>
-                <![CDATA[
-                    OpenVPN. There, that's it. That's all you need to know. No, seriously though, the installation is almost that brief as well. We used PiVPN (Raspberry Pi - VPN) don't worry, it took me a minute to understand the name as well, which is why I&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p><!-- wp:image {"align":"center","id":385} --></p>
-<figure class="wp-block-image aligncenter"><figure class="wp-image-385"><img loading="lazy"  src="https://publii.garyinnerarity.com/media/posts/50/openvpn.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://publii.garyinnerarity.com/media/posts/50/responsive/openvpn-xs.png 300w ,https://publii.garyinnerarity.com/media/posts/50/responsive/openvpn-sm.png 480w ,https://publii.garyinnerarity.com/media/posts/50/responsive/openvpn-md.png 768w ,https://publii.garyinnerarity.com/media/posts/50/responsive/openvpn-lg.png 1024w ,https://publii.garyinnerarity.com/media/posts/50/responsive/openvpn-xl.png 1360w ,https://publii.garyinnerarity.com/media/posts/50/responsive/openvpn-2xl.png 1600w"  alt=""></figure></figure>
-<p><!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>OpenVPN. There, that's it. That's all you need to know.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:separator {"opacity":"css"} --></p>
-<hr class="wp-block-separator has-css-opacity"><!-- /wp:separator -->
-<p><!-- wp:paragraph --></p>
-<p>No, seriously though, the installation is almost that brief as well. We used PiVPN (Raspberry Pi - VPN) don't worry, it took me a minute to understand the name as well, which is why I broke it down for you.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:list {"ordered":true} --></p>
-<ol>
-<li><a href="https://www.raspberrypi.org/downloads/raspberry-pi-desktop/">Download Raspberry Pi Desktop (ISO) </a></li>
-</ol>
-<p><!-- /wp:list --></p>
-<p><!-- wp:paragraph --></p>
-<p>Look, I know what you're thinking - "Why provide a link?". Because you're going to screw it up. <a href="https://www.google.com/search?safe=strict&amp;rlz=1C1CHBF_enUS847US847&amp;ei=poMRXcyUBI-5tQah0LfwAw&amp;q=openvpn+raspbian+download&amp;oq=openvpn+raspbian+download&amp;gs_l=psy-ab.3..0i22i30l2.3465.4800..4895...0.0..0.204.1294.0j7j1......0....1..gws-wiz.......0i71j0j0i20i263j33i299j33i160.hI7ExZrX0nk">Le Googles'</a> offers the first three searches for the SD card users... we are installing this in a Hyper Visor scenario.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:separator {"opacity":"css"} --></p>
-<hr class="wp-block-separator has-css-opacity"><!-- /wp:separator -->
-<p><!-- wp:paragraph --></p>
-<p>2. Next, you'll need to find yourself a host machine with a VM manager on it. I used Hyper-V offered by Microsoft on their Windows Server 2012 R2 Data-center installation (I know, it's 2019, but that's what I have).</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:separator {"opacity":"css"} --></p>
-<hr class="wp-block-separator has-css-opacity"><!-- /wp:separator -->
-<p><!-- wp:paragraph --></p>
-<p>3. Frankly, if I need to explain this part to you, you probably shouldn't be using a hyper-visor just from a security standpoint, so I'm only going to point out the obvious for those who want a quick and dirty installation.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:list --></p>
-<ul>
-<li>50GB HDD</li>
-<li>ISO of Raspbian</li>
-<li>2vCPU (for quicker installation, but 1vCPU is enough)</li>
-<li>2GB of RAM (Again, you only need 512MB, but speed)</li>
-<li>1st Gen Network Adapter (virtual, obviously)</li>
-</ul>
-<p><!-- /wp:list --></p>
-<p><!-- wp:separator {"opacity":"css"} --></p>
-<hr class="wp-block-separator has-css-opacity"><!-- /wp:separator -->
-<p><!-- wp:paragraph --></p>
-<p>4. Launch your VM</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:list --></p>
-<ul>
-<li>Boot to ISO (The image you downloaded from Step 1)</li>
-<li>Follow prompts to install Raspbian (INSTALL!!!!)</li>
-<li>After installation, reboot, and then install updates (apt-get upgrade | update)</li>
-</ul>
-<p><!-- /wp:list --></p>
-<p><!-- wp:separator {"opacity":"css"} --></p>
-<hr class="wp-block-separator has-css-opacity"><!-- /wp:separator -->
-<p><!-- wp:paragraph --></p>
-<p>5. Time to get dirty. Open the terminal, and use this launch code:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>curl -L https://install.pivpn.io | bash</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>You will then, spam "enter". Seriously, just follow the prompts to finalize the configuration (mostly "enter")</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Reboot.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Credit: <a href="http://www.pivpn.io/">http://www.pivpn.io/</a></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p><a href="https://www.smarthomeblog.net/raspberry-pi-vpn/">Proper Documentation</a></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:separator {"opacity":"css"} --></p>
-<hr class="wp-block-separator has-css-opacity"><!-- /wp:separator -->
-<p><!-- wp:paragraph --></p>
-<p>Key commands to operate OpenVPN (Add Profiles)</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>pivpn add</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:paragraph --></p>
-<p>Follow the prompt to create the user profile &amp; password</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>From here, you will then email your profile from the vm (or use SCP).</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Import your profile, use your set password and "connect"!</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:image {"align":"left","id":397} --></p>
-<figure class="wp-block-image alignleft"><figure class="wp-image-397"><img loading="lazy"  src="https://publii.garyinnerarity.com/media/posts/50/annotation-2019-06-24-212233.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://publii.garyinnerarity.com/media/posts/50/responsive/annotation-2019-06-24-212233-xs.png 300w ,https://publii.garyinnerarity.com/media/posts/50/responsive/annotation-2019-06-24-212233-sm.png 480w ,https://publii.garyinnerarity.com/media/posts/50/responsive/annotation-2019-06-24-212233-md.png 768w ,https://publii.garyinnerarity.com/media/posts/50/responsive/annotation-2019-06-24-212233-lg.png 1024w ,https://publii.garyinnerarity.com/media/posts/50/responsive/annotation-2019-06-24-212233-xl.png 1360w ,https://publii.garyinnerarity.com/media/posts/50/responsive/annotation-2019-06-24-212233-2xl.png 1600w"  alt=""></figure></figure>
-<p><!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>This image = Success</p>
-<p><!-- /wp:paragraph --></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Energy Consumption | Infrastructure</title>
-        <author>
-            <name>Gary Innerarity</name>
-        </author>
-        <link href="https://publii.garyinnerarity.com/energy-consumption-or-infrastructure/index.html"/>
-        <id>https://publii.garyinnerarity.com/energy-consumption-or-infrastructure/index.html</id>
-            <category term="On-Prem Servers"/>
-
-        <updated>2022-10-13T10:10:40-05:00</updated>
-            <summary>
-                <![CDATA[
-                    TLDR (efficiently expressed - rhetorically); Reducing infrastructure hardware with virtualization technology and picking energy efficient hardware that ultimately reduced our energy consumption over the last six years. Certainly beating the annual increase on commercial energy costs and giving us insights into the power of software and&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p><!-- wp:paragraph --></p>
-<p><strong>TLDR</strong> (<em><u>efficiently expressed - rhetorically</u></em>); Reducing infrastructure hardware with virtualization technology and picking energy efficient hardware that ultimately reduced our energy consumption over the last six years. Certainly beating the annual increase on commercial energy costs and giving us insights into the power of software and hardware technology innovations. </p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>--</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p><strong>This project is: </strong>My measurements are a 'broad stroke' of what our potential savings were. We want to see if we A) saved money on electricity to lower the environmental impact and B) see if my operational planning is lowering our foot print, and requiring less of a demand on internal resources ($$$$) and operating more efficiently (this is what I really care about).</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:image --></p>
-<figure class="wp-block-image"><img loading="lazy" src="https://publii.garyinnerarity.com/media/posts/49/0" alt="Infrastructure Energy Consumption Analysis"></figure>
-<p><!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>Well... I think the graph speaks for itself. We saved a lot of money on electricity. How did we do it? Keep reading.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>--</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p><strong>What this analysis could have been: </strong></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>It could have been a complete analysis that broke down each system by CPU (E3, E5, AMD, etc..), RAM (8, 16, 32, 64, 128), Storage (RAID configs based on SSD's, HDD's), and exact amount of (network) data pushed by the hour. Gratefully, I get paid more than $0.082 per hour, unfortunately, that means that the time to perform a fully detailed analysis may dramatically reduce the cost savings. Then again, it could be tucked away as a hidden variable..., jk.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Remember, efficiency.  <em><u>"When products use more power to perform the same amount of work, they are by definition less efficient."</u></em></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>--</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p><strong>Why it wasn't that: </strong></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Cost benefit analysis i.e, not worth the time for a similar outcome. This analysis is being done in hindsight with 20/20 vision. If I wanted to make a decision about future infrastructure changes (collocation, hybrid public cloud, on-prem datacenter expansions) with vendor purchase agreements over $100,000 for a single refresh, then the cost/benefit may be exponential enough to measure. We don't spend that type of money on infrastructure.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>--</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p><strong>What it is: </strong></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>I mean, knowing that the new hardware consumes less wattage than the prior hardware and comes with software that supports low idle usage during low load times; means that the power consumption will be lower - in theory. But remember, all you know are the stats given to you from the vendor. That doesn't include the environment variables (seasonal electrical cost changes, systems usage changes, and random implementations or deprecation's, nor system count changes). <em><u>That sentence alone is exhaustive and makes me want to switch to cloud computing</u></em>! For instance, our year over year costs per device is on an upward trend, but our overall costs for our environment is on a downward trend. How is that? </p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:image --></p>
-<figure class="wp-block-image"><img loading="lazy" src="https://publii.garyinnerarity.com/media/posts/49/0" alt="year over year electricity cost per device"></figure>
-<p><!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>Originally, I wanted to see how much of a cost savings or increase we would see from my infrastructure decisions. It quickly became apparent that most of my savings was not because I picked super efficient and 'green' hardware - <em><u>but I did.</u></em> The primary reason for my cost savings was actually a software technology - virtualization. <em><u>Yes. It has been around for a LONG TIME.</u></em></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>The primary savings was accomplished during the partial and full virtualization phase (2016-2017). Reducing the onsite datacenter footprint from 24 servers down to 3 primary servers. Unfortunately, some of the technologies deployed required additional power consumption, increased demand on average server usage and increased PoE demand on all switches as more devices become Powered over Ethernet. </p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p><strong><em><u>Eitherway, we dramatically reduced our energy consumption! Yay, us. Sorry, Entergy.</u></em></strong></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p><strong>What I plan to do with this: </strong></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Increase system efficiency, cost effectively - I thought I made that clear.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>The primary bottleneck that is limiting our system throughput are the disks I/O speeds. With future analysis, we will be able to determine if SSD's can provide us with an operational cost savings through the direct cost of electricity, infrastructure purchasing costs by consolidating one of the Hyper visors from three down to two and comparing those cost savings to varying models. I'm considering and testing costs in both a hybrid-cloud infrastructure (which adds systemic processes (lowers efficiency)) and complexes the design (lowers troubleshooting efficiency without proper training) and increases demand for professional development. All variables must be considered before making a decision on our next infrastructure initiative. </p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p><strong>How I plan to measure: </strong></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:list --></p>
-<ul>
-<li>Electrical costs can continue to be measured on an annual basis by kWh per device based on average load/usage and multiplied by the total number of 'like' devices in the network. </li>
-<li>Processes can be measured by taking the collective salary average and dividing it by the support hours required to maintain, monitor, and support a hybrid-cloud. </li>
-<li>In the same light, troubleshooting time can be averaged by the salary over ticket completion times for systems / infrastructure tasks. </li>
-<li>And finally, PD costs are explicit when utilizing subscription plans, boot-camps, and training materials. The hardest aspect to measure will be personal, off-the-clock training time dedicated to increasing our staff knowledge on cloud computing maintenance and troubleshooting. </li>
-</ul>
-<p><!-- /wp:list --></p>
-<p><!-- wp:paragraph --></p>
-<p><strong>Resources:</strong></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Inspiration: <a href="https://codeascraft.com/2020/04/23/cloud-jewels-estimating-kwh-in-the-cloud/" target="_blank" rel="noreferrer noopener">https://codeascraft.com/2020/04/23/cloud-jewels-estimating-kwh-in-the-cloud/</a></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Some research: <a href="http://www.webtorials.com/main/resource/papers/cisco/paper112/EthernetPowerStudy.pdf" target="_blank" rel="noreferrer noopener">http://www.webtorials.com/main/resource/papers/cisco/paper112/EthernetPowerStudy.pdf</a></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p><strong>Amazing vendors:</strong></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p><a href="https://www.dell.com/" target="_blank" rel="noreferrer noopener">https://www.dell.com/</a> (PowerEdge is amazing!)</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p><a href="https://meraki.cisco.com/" target="_blank" rel="noreferrer noopener">https://meraki.cisco.com/</a> (Built in power consumption metrics)</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p><a rel="noreferrer noopener" href="https://www.cisco.com/" target="_blank">https://www.cisco.com/</a> (manual power consumption stats)</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:code --></p>
-<pre class="wp-block-code"><code>#show power inlinemodule available used remaining(watts) (watts)1 370.0  39 331</code></pre>
-<p><!-- /wp:code --></p>
-<p><!-- wp:preformatted --></p>
-<pre class="wp-block-preformatted"> </pre>
-<p><!-- /wp:preformatted --></p>
-<p><!-- wp:paragraph --></p>
-<p>Disclosure:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:list --></p>
-<ul>
-<li>Not affiliated with anyone / anything in this post directly.</li>
-<li>Excuse grammatical issues, I'm not a writer.</li>
-<li>All analysis was inspired by others with a personal directive to save the earth and increase efficiency.</li>
-</ul>
-<p><!-- /wp:list --></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Cisco - The Future of Internet</title>
-        <author>
-            <name>Gary Innerarity</name>
-        </author>
-        <link href="https://publii.garyinnerarity.com/cisco-the-future-of-internet/index.html"/>
-        <id>https://publii.garyinnerarity.com/cisco-the-future-of-internet/index.html</id>
-            <category term="Switching"/>
-
-        <updated>2022-10-13T10:11:33-05:00</updated>
-            <summary>
-                <![CDATA[
-                    On December 11th, Cisco announced the future in five categories. 1. Silicon - Referenced as the "engine to a car", Silicon One is Cisco's programmable silicon architecture - Q100. This transistor can handle large buffers, advanced programability and greater bandwidth! Nerd Knob #1: 10 Tbps&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p><!-- wp:paragraph --></p>
-<p>On December 11th, Cisco announced the future in five categories.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:list {"ordered":true} --></p>
-<ol>
-<li>Silicon</li>
-<li>Optics</li>
-<li>Software</li>
-<li>Systems</li>
-<li>Architectures</li>
-</ol>
-<p><!-- /wp:list --></p>
-<p><!-- wp:paragraph --></p>
-<p>1. Silicon - Referenced as the "engine to a car", Silicon One is Cisco's programmable silicon architecture - Q100. This transistor can handle large buffers, advanced programability and greater bandwidth!</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Nerd Knob #1: 10 Tbps carrier-class capability</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Finance: Drastically reduces the OpEx industry rate which sits at a 1:5 ratio</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Read more here: <a href="https://blogs.cisco.com/sp/one-silicon-one-experience-multiple-roles">https://blogs.cisco.com/sp/one-silicon-one-experience-multiple-roles</a></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>2. Optics - Slower interface speeds could easily cost a solution 10%. With new silicon photonics reaching 400G, the cost per bit can be driven down.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>With the hardware becoming more diverse and software driven, we are now going to see an increase in cost on the speed.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Can you imagine? 400GbE connections. That's an insane amount of data movement.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Read more here: <a href="https://blogs.cisco.com/sp/optics-fundamental-to-build-the-internet-for-the-future">https://blogs.cisco.com/sp/optics-fundamental-to-build-the-internet-for-the-future</a></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>3. Software - As Cisco references Silicon as the car, they reference Software as the steering wheel. Their Network Operating System (NOS) becomes an even more critical component in the future of the internet. With Cisco's IOS XR7, come prioritization on operations. Their goal was to simplify and improve automation tasks with the overarching goal of "zero-touch". With better efficiencies, comes more complexities. XR7 NOS allows teams to utilize the computer for insights and analytics.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Read more here: <a href="https://www.cisco.com/c/en/us/products/ios-nx-os-software/ios-xr-software/index.html">https://www.cisco.com/c/en/us/products/ios-nx-os-software/ios-xr-software/index.html</a></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>4. Systems - Continuing the reference - the car. With Cisco 8000 series routers being deployed, we can now bundle the hardware and software for limitless opportunities. Okay, maybe not limitless for long, but definitely a game changer for the immediate future.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Nerd Knob #2:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>1 RU Router can support 10.8Tb/s bandwidth...</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>3 modular form-factor platforms delivering support from 115Tb/s &gt; 260Tb/s</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Full Fabric redundancy</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Top of the line security - Hardware based "Trustworthiness" for tamper proof control and visibility controlled by Cisco Crosswork Cloud</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Finance:</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Reduced power consumption per Gb (4W) which is 1/4th the consumption</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Read more here: <a href="https://www.cisco.com/c/en/us/products/ios-nx-os-software/ios-xr-software/index.html">https://www.cisco.com/c/en/us/products/ios-nx-os-software/ios-xr-software/index.html</a></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>5. Architectures - Everything listed above has been re-imagined with performance, trust and OpEx in mind. By keeping all of this on track, Cisco is reinventing how the internet operates with people and business in mind.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Read more here: <a href="https://blogs.cisco.com/news/future-of-the-internet-its-here">https://blogs.cisco.com/news/future-of-the-internet-its-here</a></p>
+<p>Anyways, you will download the .exe of Putty and then download SuperPuTTY (do you know what TTY stands for?). Once you have the .zip downloaded, you will extract it and run SuperPuTTY. SuperPuTTY will then prompt you to point the core installation to the Putty .exe. I store mine in <a href="https://www.google.com/drive/">Google Drive</a> so that I can automatically backup all of my sessions and maintain a single location for all things Putty.</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:separator --></p>
 <hr class="wp-block-separator"><!-- /wp:separator -->
+<p><!-- wp:heading --></p>
+<h2>Working with SuperPuTTY</h2>
+<p><!-- /wp:heading --></p>
 <p><!-- wp:paragraph --></p>
-<p>*This post is not endorsed by Cisco, nor is it a direct reflection of their beliefs and opinions.</p>
+<p>To create a session, you can either type it in directly (see below)</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":134,"align":"center","width":718,"height":84} --></p>
+<div class="wp-block-image">
+<figure class="aligncenter is-resized"><figure class="wp-image-134"><img loading="lazy"  src="https://publii.garyinnerarity.com/media/posts/28/quicklaunch.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://publii.garyinnerarity.com/media/posts/28/responsive/quicklaunch-xs.png 300w ,https://publii.garyinnerarity.com/media/posts/28/responsive/quicklaunch-sm.png 480w ,https://publii.garyinnerarity.com/media/posts/28/responsive/quicklaunch-md.png 768w ,https://publii.garyinnerarity.com/media/posts/28/responsive/quicklaunch-lg.png 1024w ,https://publii.garyinnerarity.com/media/posts/28/responsive/quicklaunch-xl.png 1360w ,https://publii.garyinnerarity.com/media/posts/28/responsive/quicklaunch-2xl.png 1600w"  alt="" width="718" height="84"></figure></figure>
+</div>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Or, right click on "PuTTY Sessions" and create a new connection if you access it frequently.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":188} --></p>
+<figure class="wp-block-image"><figure class="wp-image-188"><img loading="lazy"  src="https://publii.garyinnerarity.com/media/posts/28/sessions.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://publii.garyinnerarity.com/media/posts/28/responsive/sessions-xs.png 300w ,https://publii.garyinnerarity.com/media/posts/28/responsive/sessions-sm.png 480w ,https://publii.garyinnerarity.com/media/posts/28/responsive/sessions-md.png 768w ,https://publii.garyinnerarity.com/media/posts/28/responsive/sessions-lg.png 1024w ,https://publii.garyinnerarity.com/media/posts/28/responsive/sessions-xl.png 1360w ,https://publii.garyinnerarity.com/media/posts/28/responsive/sessions-2xl.png 1600w"  alt=""></figure></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>If you need help understanding all of the input information required to start a PuTTY session, then you're not ready to start with PuTTY - <a href="https://www.urbandictionary.com/define.php?term=newb">newb</a>.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>BUT, let me know and I'd be happy to get you up to pace. I was a <a href="https://www.urbandictionary.com/define.php?term=newb">newb </a>once. Now I'm an expert.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Just kidding. I'm still a fucking <a href="https://www.urbandictionary.com/define.php?term=newb">newb</a>. #humble?</p>
+<p><!-- /wp:paragraph --></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>5.14.2019 - CCNP Books Arrived!</title>
+        <author>
+            <name>Gary Innerarity</name>
+        </author>
+        <link href="https://publii.garyinnerarity.com/5142019-ccnp-books-arrived/index.html"/>
+        <id>https://publii.garyinnerarity.com/5142019-ccnp-books-arrived/index.html</id>
+            <category term="Certs"/>
+
+        <updated>2022-10-14T10:39:38-05:00</updated>
+            <summary>
+                <![CDATA[
+                    Today, I start the journey with my CCNP text books. The first book that I plan to start with is ROUTE by Kevin Wallace! Join me as I lab, cry and focus on my goals of achieving CCIE and CCAr status over the next few&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><!-- wp:image {"id":169} --></p>
+<figure class="wp-block-image"><figure class="wp-image-169"><img loading="lazy"  src="https://publii.garyinnerarity.com/media/posts/27/books.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://publii.garyinnerarity.com/media/posts/27/responsive/books-xs.jpg 300w ,https://publii.garyinnerarity.com/media/posts/27/responsive/books-sm.jpg 480w ,https://publii.garyinnerarity.com/media/posts/27/responsive/books-md.jpg 768w ,https://publii.garyinnerarity.com/media/posts/27/responsive/books-lg.jpg 1024w ,https://publii.garyinnerarity.com/media/posts/27/responsive/books-xl.jpg 1360w ,https://publii.garyinnerarity.com/media/posts/27/responsive/books-2xl.jpg 1600w"  alt=""></figure></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Today, I start the journey with my CCNP text books. The first book that I plan to start with is ROUTE by Kevin Wallace! Join me as I lab, cry and focus on my goals of achieving CCIE and CCAr status over the next few years!</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Edit: do I want to go the CCDP route? I may... I'll post again after I make it past the Route and Switch exams.</p>
+<p><!-- /wp:paragraph --></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Mojang Support - 5.6.2019</title>
+        <author>
+            <name>Gary Innerarity</name>
+        </author>
+        <link href="https://publii.garyinnerarity.com/mojang-support-562019/index.html"/>
+        <id>https://publii.garyinnerarity.com/mojang-support-562019/index.html</id>
+            <category term="Rant"/>
+
+        <updated>2022-10-14T10:39:17-05:00</updated>
+            <summary>
+                <![CDATA[
+                    I'm understanding, but come on! You're almost two full months behind on technical support???? I'd think that a company like this would have instituted a chat bot by now! Check their current ticket status: https://help.mojang.com/customer/portal/articles/359446 June 2nd Update:
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><!-- wp:image {"id":125,"align":"center"} --></p>
+<div class="wp-block-image">
+<figure class="aligncenter"><figure class="wp-image-125"><img loading="lazy"  src="https://publii.garyinnerarity.com/media/posts/26/mojang.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://publii.garyinnerarity.com/media/posts/26/responsive/mojang-xs.png 300w ,https://publii.garyinnerarity.com/media/posts/26/responsive/mojang-sm.png 480w ,https://publii.garyinnerarity.com/media/posts/26/responsive/mojang-md.png 768w ,https://publii.garyinnerarity.com/media/posts/26/responsive/mojang-lg.png 1024w ,https://publii.garyinnerarity.com/media/posts/26/responsive/mojang-xl.png 1360w ,https://publii.garyinnerarity.com/media/posts/26/responsive/mojang-2xl.png 1600w"  alt=""></figure></figure>
+</div>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>I'm understanding, but come on! You're almost two full months behind on technical support???? I'd think that a company like this would have instituted a chat bot by now!</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Check their current ticket status: <br><a href="https://help.mojang.com/customer/portal/articles/359446">https://help.mojang.com/customer/portal/articles/359446</a></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>June 2nd Update:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":297} --></p>
+<figure class="wp-block-image"><figure class="wp-image-297"><img loading="lazy"  src="https://publii.garyinnerarity.com/media/posts/26/update.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://publii.garyinnerarity.com/media/posts/26/responsive/update-xs.png 300w ,https://publii.garyinnerarity.com/media/posts/26/responsive/update-sm.png 480w ,https://publii.garyinnerarity.com/media/posts/26/responsive/update-md.png 768w ,https://publii.garyinnerarity.com/media/posts/26/responsive/update-lg.png 1024w ,https://publii.garyinnerarity.com/media/posts/26/responsive/update-xl.png 1360w ,https://publii.garyinnerarity.com/media/posts/26/responsive/update-2xl.png 1600w"  alt=""></figure></figure>
+<p><!-- /wp:image --></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>6.1.2018 - Network Warrior</title>
+        <author>
+            <name>Gary Innerarity</name>
+        </author>
+        <link href="https://publii.garyinnerarity.com/612018-network-warrior/index.html"/>
+        <id>https://publii.garyinnerarity.com/612018-network-warrior/index.html</id>
+            <category term="Books"/>
+
+        <updated>2022-10-14T10:38:28-05:00</updated>
+            <summary>
+                <![CDATA[
+                    Seriously, for those things that were not taught on the CCNA... Get the book here: https://www.amazon.com/Network-Warrior-Everything-Need-Wasnt/dp/1449387861 (again, unaffiliated... Amazon, we need to fix this)
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><!-- wp:image {"id":91,"align":"center"} --></p>
+<div class="wp-block-image">
+<figure class="aligncenter"><figure class="wp-image-91"><img loading="lazy"  src="https://publii.garyinnerarity.com/media/posts/25/networkwarriro.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://publii.garyinnerarity.com/media/posts/25/responsive/networkwarriro-xs.jpg 300w ,https://publii.garyinnerarity.com/media/posts/25/responsive/networkwarriro-sm.jpg 480w ,https://publii.garyinnerarity.com/media/posts/25/responsive/networkwarriro-md.jpg 768w ,https://publii.garyinnerarity.com/media/posts/25/responsive/networkwarriro-lg.jpg 1024w ,https://publii.garyinnerarity.com/media/posts/25/responsive/networkwarriro-xl.jpg 1360w ,https://publii.garyinnerarity.com/media/posts/25/responsive/networkwarriro-2xl.jpg 1600w"  alt=""></figure></figure>
+</div>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Seriously, for those things that were not taught on the CCNA...</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Get the book here: <a href="https://www.amazon.com/Network-Warrior-Everything-Need-Wasnt/dp/1449387861">https://www.amazon.com/Network-Warrior-Everything-Need-Wasnt/dp/1449387861</a> (again, unaffiliated... Amazon, we need to fix this)</p>
+<p><!-- /wp:paragraph --></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>5.1.2018 - Grumpy Cat Book</title>
+        <author>
+            <name>Gary Innerarity</name>
+        </author>
+        <link href="https://publii.garyinnerarity.com/512018-grumpy-cat-book/index.html"/>
+        <id>https://publii.garyinnerarity.com/512018-grumpy-cat-book/index.html</id>
+            <category term="Books"/>
+
+        <updated>2022-10-14T10:38:18-05:00</updated>
+            <summary>
+                <![CDATA[
+                    This year, my colleague, the guy who helped me accelerate my learning and encouraged my professional growth (James Huval, A.k.a, JimmyJams) purchased a book for me from our local book sale... It's probably the greatest gift/book meme I could have ever received. Sure, it was&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><!-- wp:paragraph --></p>
+<p>This year, my colleague, the guy who helped me accelerate my learning and encouraged my professional growth (<a href="http://www.techytidbits.com/">James Huval, A.k.a, JimmyJams</a>) purchased a book for me from our local book sale...</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>It's probably the greatest gift/book meme I could have ever received.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Sure, it was probably purchased because of its direct representation of me as a grumpy - know it all (No-It-All), but I also feel like it may have been purchased because of my tender fluffiness... I'm not totally sure, and I'm not going to ask.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":87,"align":"center","width":243,"height":340} --></p>
+<div class="wp-block-image">
+<figure class="aligncenter is-resized"><figure class="wp-image-87"><img loading="lazy"  src="https://publii.garyinnerarity.com/media/posts/24/no-it-all.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://publii.garyinnerarity.com/media/posts/24/responsive/no-it-all-xs.jpg 300w ,https://publii.garyinnerarity.com/media/posts/24/responsive/no-it-all-sm.jpg 480w ,https://publii.garyinnerarity.com/media/posts/24/responsive/no-it-all-md.jpg 768w ,https://publii.garyinnerarity.com/media/posts/24/responsive/no-it-all-lg.jpg 1024w ,https://publii.garyinnerarity.com/media/posts/24/responsive/no-it-all-xl.jpg 1360w ,https://publii.garyinnerarity.com/media/posts/24/responsive/no-it-all-2xl.jpg 1600w"  alt="" width="243" height="340"></figure></figure>
+</div>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>All seriousness aside, you should read it. It's worth the chuckle. P.s. IT HAS STICKERS! "No" Stickers!!</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Get your own copy: <a href="https://www.amazon.com/Grumpy-Cat-No-All-Everything-ebook/dp/B01320NNEO/ref=sr_1_fkmr2_1?keywords=grumpy+cat+mug+you+want+to+movie&amp;qid=1557699217&amp;s=gateway&amp;sr=8-1-fkmr2">https://www.amazon.com/Grumpy-Cat-No-All-Everything-ebook/dp/B01320NNEO/ref=sr_1_fkmr2_1?keywords=grumpy+cat+mug+you+want+to+movie&amp;qid=1557699217&amp;s=gateway&amp;sr=8-1-fkmr2</a> (unaffiliated, just wanted to make sure that was clear, *cough cough)</p>
 <p><!-- /wp:paragraph --></p>
             ]]>
         </content>
